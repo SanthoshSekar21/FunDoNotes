@@ -1,6 +1,6 @@
 import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
-
+import bcrypt from 'bcrypt';
 class UserService {
 
   // //get all users
@@ -15,6 +15,8 @@ class UserService {
     if(existingUser){
       throw new Error("Email Id is Aldready Exists")
     }
+    const hashedPassword=await bcrypt.hash(body.Password,10);
+    body.Password=hashedPassword;
     const data = await User.create(body);
     return   data;
   };
