@@ -30,12 +30,13 @@ class UserService {
     if(data.length==0){
      throw new Error("No user exists")
     }
-    else if(data[0].Password!=body.Password)
+    const passwordMatch=await bcrypt.compare(body.Password,data[0].Password)
+    if(!passwordMatch)
       {
      throw new Error("Invalid Password")
     }
     else
-      return data[0];
+      return {Firstname:data[0].Firstname,Lastname:data[0].Lastname};
   };
   // //update a user
   // public updateUser = async (_id: string, body: IUser): Promise<IUser> => {
