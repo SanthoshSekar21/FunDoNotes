@@ -1,0 +1,120 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T13:08:16.452Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T13:08:19.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T13:40:52.558Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T13:40:56.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T13:42:46.810Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T13:42:50.331Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T13:47:41.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T13:59:33.666Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T13:59:37.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T15:11:08.135Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:11:10.452Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:12:08.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T15:12:38.462Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:12:41.787Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:12:50.938Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:12:52.815Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:24:16.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T15:29:48.031Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:29:50.455Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:29:55.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T15:38:17.726Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:38:20.375Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:39:06.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T15:42:31.627Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:42:34.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:31:38.281Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:31:40.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:38:24.322Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:38:26.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:43:24.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:43:52.785Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:43:52.859Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:49:46.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:51:57.854Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:51:57.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:54:43.542Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:54:43.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:56:39.080Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:56:39.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:04:25.423Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:04:25.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:05:29.413Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:05:29.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:06:19.582Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:06:19.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:17:50.363Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:17:50.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:21:57.082Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:21:57.180Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FunDoNotes.users index: Email_1 dup key: { Email: "santhosh20sekar@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T18:22:06.848Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (E:\FunDoNotes\FunDoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\response.js:278:15)
+    at ErrorMiddleware.appErrorHandler (E:\FunDoNotes\FunDoNotes\src\middlewares\error.middleware.ts:57:28)
+    at Layer.handle_error (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T18:22:07.026Z"}

@@ -20,10 +20,14 @@ class ErrorMiddleware {
    * @param {Object} res
    */
   public notFound = (req: Request, res: Response): void => {
+    if (!res.headersSent){
     res.status(HttpStatus.NOT_FOUND).json({
       code: HttpStatus.NOT_FOUND,
       message: 'Ooops, route not found'
-    });
+    });}
+    else {
+      console.log("Headers already sent, cannot send 404 response");
+    }
   };
 
   /**

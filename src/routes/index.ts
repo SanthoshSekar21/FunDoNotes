@@ -9,8 +9,8 @@ import userRoute from './user.route';
  * @returns router
  */
 const routes = (): IRouter => {
-  router.get('/', (req, res) => {
-    res.json('Welcome');
+  router.get('/home', (req, res) => {
+    res.json('Welcome to the FundoNotes');
   });
   router.use('/users', new userRoute().getRoutes());
 
