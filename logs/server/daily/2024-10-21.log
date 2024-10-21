@@ -1,0 +1,77 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T04:54:51.736Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T04:54:52.850Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T04:58:06.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:00:37.987Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:00:38.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:10:29.883Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:10:29.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:11:18.116Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:11:18.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:21:18.839Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:21:18.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:22:38.655Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:22:38.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:23:27.689Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:23:27.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:25:55.974Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:25:56.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:28:10.186Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:28:10.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:30:51.377Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:30:51.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:32:15.827Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:32:15.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:32:44.859Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:32:45.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:35:56.247Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:35:56.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T06:53:24.583Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T06:53:25.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:09:38.266Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:09:38.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:22:39.458Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:22:39.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:24:08.231Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:24:08.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:24:46.110Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:24:46.313Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:25:03.514Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:31:55.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:42:48.799Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:42:49.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:43:17.834Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:43:18.005Z"}

@@ -76,7 +76,7 @@ class UserController {
       res.status(HttpStatus.BAD_REQUEST).json({
         code: HttpStatus.BAD_REQUEST,
         message: `${error}`});
-      next(error);
+    
     }
   };
   /** 
@@ -91,11 +91,13 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.loginUser(req.body);
+      const token= await this.UserService.loginUser(req.body);
       
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
-          message: `login Successful! ${data.Firstname} ${data.Lastname}`})
+          message: `login Successful!`,
+          token:token,
+          });
       }
      catch (error) {
       

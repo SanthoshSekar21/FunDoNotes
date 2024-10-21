@@ -160,3 +160,13 @@ info: ::1 - - [17/Oct/2024:12:19:24 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [17/Oct/2024:12:20:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 55 "-" "PostmanRuntime/7.39.1"
 
+info: ::1 - - [17/Oct/2024:15:49:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 55 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [17/Oct/2024:15:49:22 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [17/Oct/2024:15:49:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 55 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [17/Oct/2024:15:49:39 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [17/Oct/2024:15:49:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 55 "-" "PostmanRuntime/7.39.1"
+

@@ -1,0 +1,36 @@
+info: ::1 - - [21/Oct/2024:04:56:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 266 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:04:58:06 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:04:58:19 +0000] "POST /api/v1/notes HTTP/1.1" 400 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:11:50 +0000] "POST /api/v1/notes HTTP/1.1" 400 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:11:56 +0000] "POST /api/v1/notes HTTP/1.1" 400 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:21:44 +0000] "POST /api/v1/notes HTTP/1.1" 400 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:22:45 +0000] "POST /api/v1/notes HTTP/1.1" 400 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:23:45 +0000] "POST /api/v1/notes HTTP/1.1" 400 87 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:26:00 +0000] "POST /api/v1/notes HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:30:56 +0000] "POST /api/v1/notes HTTP/1.1" 201 322 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:32:21 +0000] "POST /api/v1/notes HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:32:25 +0000] "POST /api/v1/notes HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:05:32:51 +0000] "POST /api/v1/notes HTTP/1.1" 201 322 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:07:25:03 +0000] "POST /api/v1/notes HTTP/1.1" 500 46 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:07:30:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 266 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:07:31:55 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:07:32:03 +0000] "POST /api/v1/notes HTTP/1.1" 400 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:07:45:15 +0000] "POST /api/v1/notes HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+

@@ -1,7 +1,7 @@
 import express, { IRouter } from 'express';
 const router = express.Router();
-
-import userRoute from './user.route';
+import NoteRoutes from './note.route'; 
+import UserRoutes from './user.route'; 
 
 /**
  * Function contains Application routes
@@ -12,8 +12,9 @@ const routes = (): IRouter => {
   router.get('/home', (req, res) => {
     res.json('Welcome to the FundoNotes');
   });
-  router.use('/users', new userRoute().getRoutes());
-
+  router.use('/notes',new NoteRoutes().getRoutes())
+  router.use('/users', new UserRoutes().getRoutes());
+ 
   return router;
 };
 

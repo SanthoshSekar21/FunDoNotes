@@ -691,3 +691,583 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-10-17T10:20:41.032Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T07:27:14.563Z"}
+error: uncaughtException: NoteRoutes is not defined
+ReferenceError: NoteRoutes is not defined
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:39)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\wrap.js:104:1) {"date":"Sun Oct 20 2024 13:23:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":787597.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18385080,"external":20629531,"heapTotal":26660864,"heapUsed":23777680,"rss":56057856},"pid":1284,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteRoutes is not defined\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:39)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js:104:1)","timestamp":"2024-10-20T07:53:02.783Z","trace":[{"column":39,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":1,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js","function":null,"line":104,"method":null,"native":false}]}
+error: uncaughtException: NoteRoutes is not defined
+ReferenceError: NoteRoutes is not defined
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:39)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\wrap.js:104:1) {"date":"Sun Oct 20 2024 13:27:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":787855.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18358224,"external":20621339,"heapTotal":28758016,"heapUsed":21001504,"rss":57860096},"pid":4916,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteRoutes is not defined\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:39)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js:104:1)","timestamp":"2024-10-20T07:57:20.915Z","trace":[{"column":39,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":1,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js","function":null,"line":104,"method":null,"native":false}]}
+error: uncaughtException: NoteController is not defined
+ReferenceError: NoteController is not defined
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:7:32)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:35)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {"date":"Sun Oct 20 2024 13:28:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":787946.375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18366420,"external":20629531,"heapTotal":36098048,"heapUsed":26443624,"rss":65830912},"pid":14248,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteController is not defined\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:7:32)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:35)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)","timestamp":"2024-10-20T07:58:51.762Z","trace":[{"column":32,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":7,"method":null,"native":false},{"column":35,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false}]}
+error: uncaughtException: NoteController is not defined
+ReferenceError: NoteController is not defined
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:7:32)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:35)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {"date":"Sun Oct 20 2024 13:28:57 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":787952.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18366420,"external":20629531,"heapTotal":36360192,"heapUsed":25880328,"rss":66035712},"pid":5424,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteController is not defined\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:7:32)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:35)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)","timestamp":"2024-10-20T07:58:57.788Z","trace":[{"column":32,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":7,"method":null,"native":false},{"column":35,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false}]}
+error: uncaughtException: NoteController is not defined
+ReferenceError: NoteController is not defined
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:7:32)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:22)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {"date":"Sun Oct 20 2024 13:30:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":788049.421},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18366420,"external":20629531,"heapTotal":36098048,"heapUsed":26042448,"rss":66252800},"pid":8640,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteController is not defined\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:7:32)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:22)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)","timestamp":"2024-10-20T08:00:34.806Z","trace":[{"column":32,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":7,"method":null,"native":false},{"column":22,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false}]}
+error: uncaughtException: NoteController is not defined
+ReferenceError: NoteController is not defined
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:7:32)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:22)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {"date":"Sun Oct 20 2024 13:32:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":788143.703},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18366420,"external":20629531,"heapTotal":36360192,"heapUsed":26719056,"rss":66064384},"pid":11212,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteController is not defined\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:7:32)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:22)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)","timestamp":"2024-10-20T08:02:09.091Z","trace":[{"column":32,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":7,"method":null,"native":false},{"column":22,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false}]}
+error: uncaughtException: NoteController is not defined
+ReferenceError: NoteController is not defined
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:7:32)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {"date":"Sun Oct 20 2024 13:33:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":788215.781},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18366420,"external":20629531,"heapTotal":36622336,"heapUsed":25694280,"rss":66850816},"pid":14972,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteController is not defined\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:7:32)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)","timestamp":"2024-10-20T08:03:21.168Z","trace":[{"column":32,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":7,"method":null,"native":false},{"column":23,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false}]}
+error: uncaughtException: noteService is not defined
+ReferenceError: noteService is not defined
+    at new NoteController (E:\FunDoNotes\FunDoNotes\src\controllers\note.controller.ts:6:28)
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:7:28)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) {"date":"Sun Oct 20 2024 13:35:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":788342.375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373051,"external":20635803,"heapTotal":36622336,"heapUsed":26050360,"rss":66334720},"pid":3392,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: noteService is not defined\n    at new NoteController (E:\\FunDoNotes\\FunDoNotes\\src\\controllers\\note.controller.ts:6:28)\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:7:28)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)","timestamp":"2024-10-20T08:05:27.761Z","trace":[{"column":28,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\controllers\\note.controller.ts","function":"new NoteController","line":6,"method":null,"native":false},{"column":28,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":7,"method":null,"native":false},{"column":23,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false}]}
+error: uncaughtException: noteService is not defined
+ReferenceError: noteService is not defined
+    at new NoteController (E:\FunDoNotes\FunDoNotes\src\controllers\note.controller.ts:6:28)
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:7:28)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-6786177577881698.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) {"date":"Sun Oct 20 2024 13:36:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":788397.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373051,"external":20635803,"heapTotal":36098048,"heapUsed":26924912,"rss":65765376},"pid":7204,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: noteService is not defined\n    at new NoteController (E:\\FunDoNotes\\FunDoNotes\\src\\controllers\\note.controller.ts:6:28)\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:7:28)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)","timestamp":"2024-10-20T08:06:23.275Z","trace":[{"column":28,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\controllers\\note.controller.ts","function":"new NoteController","line":6,"method":null,"native":false},{"column":28,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":7,"method":null,"native":false},{"column":23,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-6786177577881698.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false}]}
+error: uncaughtException: NoteValidator is not defined
+ReferenceError: NoteValidator is not defined
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:9:31)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {"date":"Sun Oct 20 2024 14:10:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":790466.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18367457,"external":20629531,"heapTotal":37408768,"heapUsed":24513568,"rss":65835008},"pid":4160,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: NoteValidator is not defined\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:9:31)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)","timestamp":"2024-10-20T08:40:51.930Z","trace":[{"column":31,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":9,"method":null,"native":false},{"column":23,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:25:17)
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:12:10)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Sun Oct 20 2024 14:14:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":790675.328},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373342,"external":20629531,"heapTotal":56545280,"heapUsed":22599512,"rss":68628480},"pid":3532,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:25:17)\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:12:10)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-20T08:44:20.727Z","trace":[{"column":15,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"NoteRoutes.routes","line":25,"method":"routes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":12,"method":null,"native":false},{"column":23,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: UserRoute is not defined
+ReferenceError: UserRoute is not defined
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:16:28)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\wrap.js:104:1) {"date":"Sun Oct 20 2024 14:15:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":790717.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18365113,"external":20621339,"heapTotal":56545280,"heapUsed":20725120,"rss":69361664},"pid":9584,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: UserRoute is not defined\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:16:28)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js:104:1)","timestamp":"2024-10-20T08:45:03.327Z","trace":[{"column":28,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":16,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":1,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js","function":null,"line":104,"method":null,"native":false}]}
+error: uncaughtException: UserRoute is not defined
+ReferenceError: UserRoute is not defined
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:16:28)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8792347875442443.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\wrap.js:104:1) {"date":"Sun Oct 20 2024 14:15:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":790726.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18365113,"external":20621339,"heapTotal":56545280,"heapUsed":20239648,"rss":68964352},"pid":15132,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: UserRoute is not defined\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:16:28)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js:104:1)","timestamp":"2024-10-20T08:45:12.355Z","trace":[{"column":28,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":16,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8792347875442443.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":1,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\wrap.js","function":null,"line":104,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T08:53:20.840Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T09:00:46.472Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T09:00:58.038Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T09:01:11.796Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T09:17:39.052Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T09:18:24.472Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\application.js:635:24)
+    at App.startApp (E:\FunDoNotes\FunDoNotes\src\index.ts:62:14)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:36:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-7053481458480895.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-7053481458480895.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-7053481458480895.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) {"date":"Sun Oct 20 2024 15:42:32 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":795967.468},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387299,"external":20648674,"heapTotal":27078656,"heapUsed":24118608,"rss":55812096},"pid":2216,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:62:14)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:36:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-7053481458480895.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-7053481458480895.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-7053481458480895.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)","timestamp":"2024-10-20T10:12:32.856Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.startApp","line":62,"method":"startApp","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":36,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-7053481458480895.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-7053481458480895.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-7053481458480895.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false}]}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T12:10:03.755Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T12:10:20.761Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-10-20T13:17:15.878Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T13:20:24.123Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T13:20:41.424Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:28:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T13:20:46.120Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T15:20:50.383Z"}
+error: 
+      status - 401
+      message - Invalid token 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T15:48:00.186Z"}
+error: 
+      status - 401
+      message - Invalid token 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T15:48:24.016Z"}
+error: 
+      status - 401
+      message - Invalid token 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T15:51:06.849Z"}
+error: 
+      status - 401
+      message - Invalid token 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T15:51:10.315Z"}
+error: 
+      status - 401
+      message - Invalid token 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T15:51:12.990Z"}
+error: 
+      status - 401
+      message - Invalid token 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T16:19:05.844Z"}
+error: 
+      status - 401
+      message - Invalid token 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T16:21:36.454Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T04:58:06.319Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:25:03.514Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:31:55.164Z"}

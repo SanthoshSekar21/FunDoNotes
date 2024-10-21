@@ -24,10 +24,10 @@ export const userAuth = async (
         message: 'Authorization token is required'
       };
     bearerToken = bearerToken.split(' ')[1];
-
-    const { user }: any = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
+    const  user : any = await jwt.verify(bearerToken, process.env.JWT_SECRET);
+    req.body.createBy=user.id;
+    // res.locals = user;
+    // res.locals.token = bearerToken;
     next();
   } catch (error) {
     next(error);
