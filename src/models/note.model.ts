@@ -5,12 +5,12 @@ import { boolean } from '@hapi/joi';
 
 const noteSchema = new Schema<Inote>(
   {
-    title:{type: String},
-    description: {type: String},
+    title:{type: String,require:true},
+    description: {type: String,require:true},
     color: {type: String},
     isArchive: {type: Boolean,default:false},
     isTrash: {type: Boolean,default:false},
-    createdBy: { type: Schema.Types.ObjectId,ref: 'User'}
+    createdBy: { type: Types.ObjectId, required: true, ref: 'User' }
   },
   {
     timestamps: true,        
@@ -18,4 +18,4 @@ const noteSchema = new Schema<Inote>(
 );
 
 
-export default model<Inote>('Note', noteSchema);
+export default model('Note', noteSchema);

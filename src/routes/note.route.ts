@@ -16,23 +16,21 @@ class NoteRoutes {
     // //route to get all users
     // this.router.get('', this.UserController.getAllUsers);
 
-    //route to create a new user
-    // this.router.post(
-    //   '/register',
-    //   this.UserValidator.newUser,
-    //   this.UserController.newUser
-    // );
-    this.router.post('/',
-      this.NoteValidator.newNote,userAuth,
-      this.NoteController.createNote)
-    // //route to get a single user
-    // this.router.get('/:_id',  this.UserController.getUser);
+   
+    this.router.post('/createnote', 
+      this.NoteValidator.newNote,
+      userAuth,
+      this.NoteController.createNote);
 
-    // //route to update a single user
-    // this.router.put('/:_id', this.UserController.updateUser);
+      this.router.get('/viewall', userAuth, this.NoteController.getAllNotes);
+    // //route to get a single note
+    this.router.get('/viewone/:id', userAuth, this.NoteController.getNote);
 
-    // //route to delete a single user
-    // this.router.delete('/:_id', this.UserController.deleteUser);
+    // //route to update a note
+    this.router.put('/update/:noteId', userAuth, this.NoteController.updateNote );
+
+    //route to delete a note
+    this.router.delete('/delete/:noteId', this.NoteController.deleteNote);
   };
 
   public getRoutes = (): IRouter => {

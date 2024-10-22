@@ -69,7 +69,6 @@ class UserController {
       const data = await this.UserService.newUser(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
-        data: data,
         message: `${req.body.Firstname}${req.body.Lastname} registered Successfully!`
       });
     } catch (error) {
@@ -95,8 +94,8 @@ class UserController {
       
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
-          message: `login Successful!`,
-          token:token,
+          message: `${token[1]} ${token[2]} login Successful!`,
+          token:token[0],
           });
       }
      catch (error) {

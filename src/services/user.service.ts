@@ -37,7 +37,7 @@ class UserService {
         process.env.JWT_SECRET,
         { expiresIn: '2h' }
     );
-    return token;
+    return [token,data[0].Firstname,data[0].Lastname];
     }
   };
   // //update a user
