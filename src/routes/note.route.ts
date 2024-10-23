@@ -30,7 +30,17 @@ class NoteRoutes {
     this.router.put('/update/:noteId', userAuth, this.NoteController.updateNote );
 
     //route to delete a note
-    this.router.delete('/delete/:noteId', this.NoteController.deleteNote);
+    this.router.delete('/delete/:noteId',userAuth, this.NoteController.deleteNote);
+    //route to a trash
+    this.router.delete('/trash/:noteId',userAuth,this.NoteController.trash);
+    //route to view the trash note
+    this.router.get('/trash',userAuth,this.NoteController.viewTrash);
+    // route to a archeive
+    this.router.put('/archive/:noteId',userAuth,this.NoteController.archive);
+    //route to a view the archive note
+    this.router.get('/archive',userAuth,this.NoteController.viewArchive);
+    //route to delete permanently
+    this.router.delete('/permanentlydelete/:noteId',userAuth,this.NoteController.PermanentlyDelete);
   };
 
   public getRoutes = (): IRouter => {

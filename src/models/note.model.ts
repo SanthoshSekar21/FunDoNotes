@@ -10,7 +10,7 @@ const noteSchema = new Schema<Inote>(
     color: {type: String},
     isArchive: {type: Boolean,default:false},
     isTrash: {type: Boolean,default:false},
-    createdBy: { type: Types.ObjectId, required: true, ref: 'User' }
+    createdBy: { type: Types.ObjectId, ref: 'User' }
   },
   {
     timestamps: true,        

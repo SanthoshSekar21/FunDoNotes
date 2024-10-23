@@ -1,0 +1,64 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T05:03:01.570Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T05:03:03.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T05:47:27.526Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T05:47:41.649Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes/viewall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-23T05:52:20.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T05:59:09.955Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T05:59:10.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:01:30.730Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:01:30.818Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:376:14) 
+    url - /api/v1/notes/delete/6717c18294859d3f38fdd1b2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-10-23T06:04:45.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:41:38.574Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:41:39.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:42:15.306Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:42:15.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:44:43.844Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:44:43.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:55:59.965Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:56:00.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T07:05:17.791Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T07:05:18.499Z"}

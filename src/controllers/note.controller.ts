@@ -93,9 +93,92 @@ class NoteController {
         message:'deleted successfully',
       })
     } catch (error) {
-      res.status(500).json({ message: 'Error deleting note', error });
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: error.message,
+      });
     }
   };
+ public  viewTrash=async(req:Request,res:Response):Promise<any>=>{
+  try{
+    const notes = await this.NoteService.viewTrash(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: notes,
+      });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`});
+  }
+  }
+  public trash= async (req: Request, res: Response): Promise<any> => {
+    try {
+      const noteId = req.params.noteId;
+      const trash = await this.NoteService.trash(noteId);
+      const message = trash.isTrash
+      ? 'Note moved to the Trash successfully'
+      : 'Note restored from the trash successfully';
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        message:message
+      })
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: error.message,
+      });
+    }
+  };
+  public  viewArchive=async(req:Request,res:Response):Promise<any>=>{
+    try{
+      const notes = await this.NoteService.viewArchive(req.body);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: notes,
+        });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`});
+    }
+    }
+  
+  public archive= async (req: Request, res: Response): Promise<any> => {
+    try {
+      const noteId = req.params.noteId;
+      const archive = await this.NoteService.archive(noteId);
+      const message = archive.isArchive 
+      ? 'Note moved to the Archive successfully'
+      : 'Note  UnArchive successfully';
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+         data:archive,
+        message:message,
+      })
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: error.message,
+      });
+    }
+  };
+  public PermanentlyDelete = async (req: Request, res: Response): Promise<any> => {
+    try {
+      const noteId = req.params.noteId;
+      const deletedNote = await this.NoteService.pemanentlyDelete(noteId);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        message:'deleted successfully',
+      })
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: error.message,
+      });
+    }
+  };
+
 }
 
 export default NoteController;

@@ -1,0 +1,42 @@
+info: ::ffff:127.0.0.1 - - [23/Oct/2024:04:47:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:05:52:22 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 500 46 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:05:53:47 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 22 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:05:59:30 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 400 169 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:01:42 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 22 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:01:46 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 22 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:04:45 +0000] "DELETE /api/v1/notes/delete/6717c18294859d3f38fdd1b2 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:32:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:32:46 +0000] "DELETE /api/v1/notes/delete/6717c18294859d3f38fdd1b2 HTTP/1.1" 200 45 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:33:12 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:43:17 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:44:51 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:46:36 +0000] "PUT /api/v1/notes/archiev/6717c18294859d3f38fdd1b2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:46:45 +0000] "PUT /api/v1/notes/archiev/6717c18294859d3f38fdd1b2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:49:51 +0000] "PUT /api/v1/notes/archive/6717c18294859d3f38fdd1b2 HTTP/1.1" 200 325 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:50:55 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 276 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:51:35 +0000] "PUT /api/v1/notes/archive/6717c18294859d3f38fdd1b2 HTTP/1.1" 200 316 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:51:45 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 22 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:56:57 +0000] "PUT /api/v1/notes/trash/6717c18294859d3f38fdd1b2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:57:45 +0000] "DELETE /api/v1/notes/trash/6717c18294859d3f38fdd1b2 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:06:57:54 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 276 "-" "PostmanRuntime/7.42.0"
+

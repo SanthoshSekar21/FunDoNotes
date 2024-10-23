@@ -8,7 +8,8 @@ noteId:number
 color : string;
 isArchive :boolean;
 isTrash :boolean;
-createdBy :string;
+createdBy :string| Types.ObjectId;
+createBy:string| Types.ObjectId;
 createdAt?: Date;
 updatedAt?: Date;
 }

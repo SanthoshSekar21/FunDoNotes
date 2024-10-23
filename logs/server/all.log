@@ -1837,3 +1837,223 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T0
 info: Connected to the database. {"timestamp":"2024-10-22T06:57:06.299Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T06:57:39.073Z"}
 info: Connected to the database. {"timestamp":"2024-10-22T06:57:39.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T06:58:47.266Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T06:58:47.378Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'get')
+TypeError: Cannot read properties of undefined (reading 'get')
+    at NoteRoutes.routes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:34:16)
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:12:10)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-5340344883020878.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-5340344883020878.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-5340344883020878.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) {"date":"Tue Oct 22 2024 12:47:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":958284.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387189,"external":20629531,"heapTotal":41078784,"heapUsed":22941240,"rss":62791680},"pid":5184,"uid":null,"version":"v20.17.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'get')\n    at NoteRoutes.routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:34:16)\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:12:10)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)","timestamp":"2024-10-22T07:17:48.140Z","trace":[{"column":16,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"NoteRoutes.routes","line":34,"method":"routes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":12,"method":null,"native":false},{"column":23,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T07:17:57.277Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T07:17:57.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T07:18:07.334Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T07:18:07.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T07:39:18.031Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T07:39:18.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T08:33:15.294Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T08:33:16.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T08:49:41.085Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T08:49:41.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T09:12:26.902Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T09:12:27.601Z"}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as put] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:35:17)
+    at new NoteRoutes (E:\FunDoNotes\FunDoNotes\src\routes\note.route.ts:12:10)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-5340344883020878.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-5340344883020878.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-5340344883020878.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Tue Oct 22 2024 14:48:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":965530.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387203,"external":20629531,"heapTotal":27447296,"heapUsed":24214496,"rss":57188352},"pid":10788,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as put] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:35:17)\n    at new NoteRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts:12:10)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-22T09:18:34.231Z","trace":[{"column":15,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":216,"method":"<computed> [as put]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as put]","line":521,"method":"<computed> [as put]","native":false},{"column":17,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"NoteRoutes.routes","line":35,"method":"routes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":12,"method":null,"native":false},{"column":23,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-5340344883020878.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T09:23:59.245Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T09:24:03.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T09:37:47.164Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T09:37:54.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T09:42:47.944Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T09:42:48.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T10:05:13.364Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T10:05:13.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T10:06:16.907Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T10:06:16.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T10:22:26.380Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T10:22:26.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T10:35:58.220Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T10:35:59.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T10:50:15.575Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T10:50:18.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:06:47.213Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:06:48.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:19:42.180Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:19:42.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:20:22.994Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:20:23.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:22:20.182Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:22:20.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:22:35.432Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:22:35.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:23:06.790Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:23:06.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:23:20.495Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:23:20.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:23:45.019Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:23:45.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:27:23.850Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:27:24.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:29:25.222Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:29:25.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:29:42.691Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:29:42.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T11:39:51.544Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T11:39:51.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T15:00:43.983Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T15:00:47.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T15:03:40.221Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T15:03:40.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T15:13:41.450Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T15:13:42.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T15:15:06.103Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T15:15:07.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T15:33:35.496Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T15:33:37.076Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T15:34:48.578Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T15:34:48.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T15:48:12.166Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T15:48:15.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:01:15.743Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:01:16.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:07:23.803Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:07:24.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:11:52.945Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:11:53.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:14:38.445Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:14:44.321Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/update/6717c18294859d3f38fdd1b2 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-22T16:16:56.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:24:17.988Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:24:18.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:29:17.690Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:29:17.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:32:36.463Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:32:36.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T16:45:54.430Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T16:45:56.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T17:19:11.041Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T17:19:11.791Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes/viewall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-22T17:20:10.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T17:31:46.674Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T17:31:50.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-22T17:55:36.157Z"}
+info: Connected to the database. {"timestamp":"2024-10-22T17:55:38.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T05:03:01.570Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T05:03:03.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T05:47:27.526Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T05:47:41.649Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes/viewall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-23T05:52:20.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T05:59:09.955Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T05:59:10.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:01:30.730Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:01:30.818Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:376:14) 
+    url - /api/v1/notes/delete/6717c18294859d3f38fdd1b2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-10-23T06:04:45.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:41:38.574Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:41:39.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:42:15.306Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:42:15.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:44:43.844Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:44:43.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T06:55:59.965Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T06:56:00.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T07:05:17.791Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T07:05:18.499Z"}
