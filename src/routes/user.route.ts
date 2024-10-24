@@ -13,10 +13,7 @@ class UserRoutes {
   }
 
   private routes = () => {
-    // //route to get all users
-    // this.router.get('', this.UserController.getAllUsers);
 
-    //route to create a new user
     this.router.post(
       '/register',
       this.UserValidator.newUser,
@@ -24,7 +21,9 @@ class UserRoutes {
     );
     this.router.post('/login',
       this.UserValidator.loginUser,
-      this.UserController.loginUser)
+      this.UserController.loginUser);
+
+     
     // //route to get a single user
     // this.router.get('/:_id',  this.UserController.getUser);
 

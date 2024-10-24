@@ -1,0 +1,6 @@
+info: ::1 - - [24/Oct/2024:10:12:36 +0000] "POST /api/v1/users/register HTTP/1.1" 201 63 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:15:01 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 400 68 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:18:35 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 250 "-" "PostmanRuntime/7.42.0"
+

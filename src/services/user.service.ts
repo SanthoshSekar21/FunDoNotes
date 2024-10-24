@@ -2,6 +2,7 @@ import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import { sendEmail } from '../utils/user.util';
 class UserService {
 
   // //get all users
@@ -40,6 +41,14 @@ class UserService {
     return [token,data[0].Firstname,data[0].Lastname];
     }
   };
+  
+ 
+
+
+
+
+
+
   // //update a user
   // public updateUser = async (_id: string, body: IUser): Promise<IUser> => {
   //   const data = await User.findByIdAndUpdate(

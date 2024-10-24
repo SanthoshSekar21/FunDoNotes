@@ -62,3 +62,205 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T0
 info: Connected to the database. {"timestamp":"2024-10-23T06:56:00.850Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T07:05:17.791Z"}
 info: Connected to the database. {"timestamp":"2024-10-23T07:05:18.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T07:06:20.793Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T07:06:20.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:02:47.996Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:02:48.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:06:09.825Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:06:10.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:11:06.123Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:11:06.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:13:15.173Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:13:15.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:19:39.883Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:19:40.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:21:28.727Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:21:28.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:24:34.415Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:24:34.805Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T09:27:29.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:29:12.240Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:29:12.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:34:19.295Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:34:20.189Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected non-whitespace character after JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T09:38:08.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:42:15.785Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:42:16.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:07:49.729Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:07:52.669Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:17:03.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:23:59.106Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:23:59.764Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 59
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T10:26:27.705Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T10:29:39.641Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:29:59.743Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:42:13.399Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:43:16.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:57:28.907Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:57:30.326Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T11:04:07.330Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T11:04:35.462Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T11:06:37.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T11:12:32.699Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T11:12:33.841Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 59
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T11:14:34.832Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T11:14:50.627Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T11:15:06.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T11:42:36.516Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T11:42:37.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T11:58:11.215Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T11:58:11.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T12:02:55.430Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T12:02:55.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T12:05:48.708Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T12:05:48.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T12:07:57.409Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T12:07:57.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T12:15:19.873Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T12:15:19.981Z"}

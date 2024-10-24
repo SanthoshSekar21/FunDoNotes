@@ -24,7 +24,7 @@ class NoteRoutes {
 
       this.router.get('/viewall', userAuth, this.NoteController.getAllNotes);
     // //route to get a single note
-    this.router.get('/viewone/:id', userAuth, this.NoteController.getNote);
+    this.router.get('/viewone/:noteId', userAuth, this.NoteController.getNote);
 
     // //route to update a note
     this.router.put('/update/:noteId', userAuth, this.NoteController.updateNote );

@@ -87,7 +87,6 @@ class UserController {
   public loginUser = async (
     req: Request,
     res: Response,
-    next: NextFunction
   ): Promise<any> => {
     try {
       const token= await this.UserService.loginUser(req.body);
@@ -107,6 +106,8 @@ class UserController {
     
     }
   };
+ 
+
   // /**
   //  * Controller to update a user
   //  * @param  {object} Request - request object

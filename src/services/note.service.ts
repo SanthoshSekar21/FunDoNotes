@@ -43,9 +43,10 @@ class NoteService {
 //   });
 // }
 
-     public getNote = async (noteId: string): Promise<Inote | null> => {
+     public getNote = async (noteId:string): Promise<Inote | null> => {
         // Find the note by its _id
-        const note = await Note.findOne({$and:[{ _id: new Types.ObjectId(noteId) as any},{isTrash:false},{isArchive:false}]});
+        console.log(noteId);
+        const note = await Note.findOne({$and:[{ _id: new Types.ObjectId(noteId)},{isTrash:false},{isArchive:false}]});
         // If note doesn't exist, throw an error
         if (!note) {
             throw new Error("Note not found");

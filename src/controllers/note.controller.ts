@@ -49,8 +49,9 @@ class NoteController {
   // Get a single note by ID
   public getNote = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        const noteId = req.params.id; // Get noteId from route param
+        const noteId = req.params.noteId; // Get noteId from route param
         // Call the service to get the note
+        
         const note = await this.NoteService.getNote(noteId);
 
         res.status(HttpStatus.OK).json({

@@ -1,0 +1,431 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+      "title": "FunDoNotes",
+      "description": "This allows users to register, login, and manage notes. It includes CRUD operations for notes, user authentication, and other features such as archiving, trashing, and deleting notes."
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000/api/v1"
+      }
+    ],
+    "tags": [
+      {
+        "name": "User",
+        "description": "User registration, login, and authentication"
+      },
+      {
+        "name": "Notes",
+        "description": "CRUD operations for notes, including archive, trash, and delete functionalities"
+      }
+    ],
+    "paths": {
+      "/users/register": {
+        "post": {
+          "tags": [
+            "User"
+          ],
+          "summary": "Register a new user",
+          "requestBody": {
+            "description": "New user data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "201": {
+              "description": "User registered successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          }
+        }
+      },
+      "/users/login": {
+        "post": {
+          "tags": [
+            "User"
+          ],
+          "summary": "Login a user",
+          "requestBody": {
+            "description": "Login credentials",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Login"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "Login successful"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/createnote": {
+        "post": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Create a new note",
+          "requestBody": {
+            "description": "Note data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Note"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "201": {
+              "description": "Note created successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+          }
+        },
+            "security": [
+              {
+                "JWT": []
+              }
+            ]
+        }
+      },
+      "/notes/viewall": {
+        "get": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Get all notes created by user",
+          "responses": {
+            "200": {
+              "description": "Notes fetched successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/viewone/{noteId}": {
+        "get": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Get a single note by ID",
+          "parameters": [
+            {
+              "name": "noteId",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note fetched successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/update/{noteId}": {
+        "put": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Update a note",
+          "parameters": [
+            {
+              "name": "noteId",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "requestBody": {
+            "description": "Updated note data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Note"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "202": {
+              "description": "Note updated successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/delete/{noteId}": {
+        "delete": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Delete a note by ID",
+          "parameters": [
+            {
+              "name": "noteId",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "202": {
+              "description": "Note deleted successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/archive": {
+        "get": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Get all archived notes",
+          "responses": {
+            "200": {
+              "description": "Archived notes fetched successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/archive/{noteId}": {
+        "put": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Archive or unarchive a note",
+          "parameters": [
+            {
+              "name": "noteId",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "202": {
+              "description": "Note archived/unarchived successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/trash": {
+        "delete": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Get all trashed notes",
+          "responses": {
+            "200": {
+              "description": "Trashed notes fetched successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+      "/notes/trash/{noteId}": {
+        "put": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Move a note to trash",
+          "parameters": [
+            {
+              "name": "noteId",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "202": {
+              "description": "Note moved to trash successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "User": {
+          "type": "object",
+          "properties": {
+            "Firstname": {
+              "type": "string"
+            },
+            "Lastname": {
+              "type": "string"
+            },
+            "Email": {
+              "type": "string"
+            },
+            "Password": {
+              "type": "string"
+            }
+          }
+        },
+        "Login": {
+          "type": "object",
+          "properties": {
+            "Email": {
+              "type": "string"
+            },
+            "Password": {
+              "type": "string"
+            }
+          }
+        },
+        "Note": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string","nullable":true
+            }
+          }
+        }
+      },
+      "securitySchemes": {
+        "JWT": {
+          "type": "http",
+          "scheme": "bearer",
+         "bearerFormat": "JWT"
+        }
+      }
+    }
+  }
+  

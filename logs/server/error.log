@@ -1490,3 +1490,256 @@ error:
     method - DELETE 
     IP - ::1
    {"timestamp":"2024-10-23T06:04:45.653Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T09:27:29.197Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected non-whitespace character after JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T09:38:08.081Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:17:03.081Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 59
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T10:26:27.705Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T10:29:39.641Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:29:59.743Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:42:13.399Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:43:16.373Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T11:04:07.330Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T11:04:35.462Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T11:06:37.774Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 59
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T11:14:34.832Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T11:14:50.627Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (E:\FunDoNotes\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T11:15:06.132Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\application.js:635:24)
+    at App.startApp (E:\FunDoNotes\FunDoNotes\src\index.ts:62:14)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:36:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-02024085816656207.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-02024085816656207.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-02024085816656207.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) {"date":"Thu Oct 24 2024 14:47:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14063.796},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387597,"external":20648674,"heapTotal":57225216,"heapUsed":30089536,"rss":76681216},"pid":6944,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:62:14)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:36:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-02024085816656207.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-02024085816656207.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-02024085816656207.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)","timestamp":"2024-10-24T09:17:13.092Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.startApp","line":62,"method":"startApp","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":36,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-02024085816656207.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-02024085816656207.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-02024085816656207.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false}]}
+error: Could not connect to the database. {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: \n    at NativeConnection.Connection.openUri (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:48:13)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:34:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)","timestamp":"2024-10-24T09:20:22.842Z"}
+error: Could not connect to the database. {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: \n    at NativeConnection.Connection.openUri (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:48:13)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:34:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)","timestamp":"2024-10-24T09:27:46.237Z"}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:26:19)
+    at new UserRoutes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:17:24)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 24 2024 15:32:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16801.796},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387502,"external":20629531,"heapTotal":56807424,"heapUsed":26376352,"rss":71213056},"pid":13112,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:26:19)\n    at new UserRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:17:24)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-24T10:02:51.090Z","trace":[{"column":15,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":26,"method":"routes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":17,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:26:19)
+    at new UserRoutes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:17:24)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 24 2024 15:33:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16830.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387502,"external":20629531,"heapTotal":57069568,"heapUsed":26398056,"rss":71450624},"pid":9976,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:26:19)\n    at new UserRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:17:24)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-24T10:03:19.610Z","trace":[{"column":15,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":26,"method":"routes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":17,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:26:19)
+    at new UserRoutes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:17:24)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 24 2024 15:33:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16837.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387502,"external":20629531,"heapTotal":57069568,"heapUsed":25943760,"rss":70574080},"pid":7396,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:26:19)\n    at new UserRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:17:24)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-24T10:03:26.492Z","trace":[{"column":15,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":26,"method":"routes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":17,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:26:19)
+    at new UserRoutes (E:\FunDoNotes\FunDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\FunDoNotes\FunDoNotes\src\routes\index.ts:17:24)
+    at App.initializeRoutes (E:\FunDoNotes\FunDoNotes\src\index.ts:52:52)
+    at new App (E:\FunDoNotes\FunDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\FunDoNotes\FunDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\FunDoNotes\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:114:20)
+    at require.extensions.<computed> (C:\Users\santh\AppData\Local\Temp\ts-node-dev-hook-8993570346502477.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\FunDoNotes\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 24 2024 16:13:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19227.593},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387502,"external":20629531,"heapTotal":40816640,"heapUsed":23427016,"rss":62910464},"pid":2064,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:26:19)\n    at new UserRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts:17:24)\n    at App.initializeRoutes (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:52:52)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-24T10:43:16.892Z","trace":[{"column":15,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":26,"method":"routes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":17,"method":null,"native":false},{"column":52,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\santh\\AppData\\Local\\Temp\\ts-node-dev-hook-8993570346502477.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: Could not connect to the database. connection <monitor> to 127.0.0.1:27017 timed out {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connection <monitor> to 127.0.0.1:27017 timed out\n    at NativeConnection.Connection.openUri (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:48:13)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:34:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)","timestamp":"2024-10-24T10:44:01.294Z"}
