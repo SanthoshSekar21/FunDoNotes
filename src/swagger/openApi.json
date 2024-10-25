@@ -50,6 +50,11 @@
           }
         }
       },
+<<<<<<< Updated upstream
+=======
+
+      
+>>>>>>> Stashed changes
       "/users/login": {
         "post": {
           "tags": [
@@ -85,6 +90,65 @@
           ]
         }
       },
+<<<<<<< Updated upstream
+=======
+      "/users/forgetPassword": {
+        "post": {
+            "tags": ["User"],
+            "summary": "Request to  password reset link",
+            "requestBody": {
+                "description": "Email address for password reset",
+                "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/forgetPassword"
+                      }       
+                     }   
+                },
+                "required": true
+            },
+            "responses": {
+                "200": {
+                    "description": "Token sent to email successfully"
+                },
+                "400": {
+                    "description": "Bad Request"
+                },
+                "500": {
+                    "description": "Internal server error"
+                }
+            }
+        }
+    },
+    "/users/resetPassword": {
+            "put": {
+                "tags": ["User"],
+                "summary": "Reset user password",
+                "requestBody": {
+                    "description": "New password and access token",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                        "$ref": "#/components/schemas/resetPassword"
+                      } 
+                   }
+               },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Password reset successfully"
+                    },
+                    "400": {
+                        "description": "Bad Request"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+>>>>>>> Stashed changes
       "/notes/createnote": {
         "post": {
           "tags": [
@@ -315,8 +379,13 @@
           ]
         }
       },
+<<<<<<< Updated upstream
       "/notes/trash": {
         "delete": {
+=======
+      "/notes/trash/": {
+        "get": {
+>>>>>>> Stashed changes
           "tags": [
             "Notes"
           ],
@@ -372,8 +441,46 @@
             }
           ]
         }
+<<<<<<< Updated upstream
       }
     },
+=======
+      },
+        "/notes/permanentlydelete/{noteId}": {
+          "delete": {
+              "tags": ["Notes"],
+              "summary": "Permanently delete a note",
+              "parameters": [
+                  {
+                      "name": "noteId",
+                      "in": "path",
+                      "required": true,
+                      "description": " The note is  delete permanently",
+                      "schema": {
+                          "type": "string"
+                      }
+                  }
+              ],
+              "responses": {
+                "202": {
+                  "description": "Note permanently deleted successfully"
+                },
+                "400": {
+                  "description": "Bad Request"
+                },
+                "500": {
+                  "description": "Internal server error"
+                }
+              },
+              "security": [
+                  {
+                      "JWT": []
+                  }
+              ]
+          }
+      }
+      },
+>>>>>>> Stashed changes
     "components": {
       "schemas": {
         "User": {
@@ -404,6 +511,28 @@
             }
           }
         },
+<<<<<<< Updated upstream
+=======
+        "forgetPassword":{
+          "type": "object",
+         "properties": {
+           "Email": {
+            "type": "string"
+             }
+          }
+        },
+        "resetPassword":{
+          "type": "object",
+          "properties": {
+            "accessToken": {
+                  "type": "string"
+              },
+              "Password": {
+                  "type": "string"
+          }
+       }
+    },
+>>>>>>> Stashed changes
         "Note": {
           "type": "object",
           "properties": {

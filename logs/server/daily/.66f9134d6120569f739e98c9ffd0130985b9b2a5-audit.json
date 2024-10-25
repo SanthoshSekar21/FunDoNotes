@@ -16,6 +16,14 @@
             "hash": "d25ad25cac2075f5f2bb00b217c27eaef49746505cba7f663b64dd9c5f55040b"
         },
         {
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+            "date": 1729847414056,
+            "name": "logs\\server\\daily\\2024-10-25.log",
+            "hash": "b03612e32c6181058084c6e3c949e1b909aebbd1d17e9cdcddbc075e053b4860"
+=======
+>>>>>>> Stashed changes
             "date": 1729226969208,
             "name": "logs\\server\\daily\\2024-10-18.log",
             "hash": "fdd2957d2e860bd84924a031740441ee67075d02ce53068449766fe24158ee40"
@@ -49,6 +57,15 @@
             "date": 1729761432388,
             "name": "logs\\server\\daily\\2024-10-24.log",
             "hash": "8d55c91f93e016599c468f1ffc6b6a78c6614c90cf9b4b9207dd8cd49ff1d997"
+<<<<<<< Updated upstream
+=======
+        },
+        {
+            "date": 1729831850371,
+            "name": "logs\\server\\daily\\2024-10-25.log",
+            "hash": "ed6d74096627d1ad637b67af9caa0898593852a16cd0130e6f5d5204e9f88b8b"
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
         }
     ],
     "hashType": "sha256"

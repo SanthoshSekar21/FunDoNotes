@@ -19,7 +19,11 @@ class NoteService {
   // Get all notes for a specific user
   public async getAllNotes(body:Inote): Promise<Inote[] > {
    
+<<<<<<< Updated upstream
     let note= await Note.find({$and:[{createdBy:new Types.ObjectId(body.createBy)},{isTrash:false},{isArchive:false}]});
+=======
+    let note= await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isTrash:false},{isArchive:false}]});
+>>>>>>> Stashed changes
     if(!note)
       throw new Error("Note not found");
     return note;
@@ -78,7 +82,11 @@ class NoteService {
   }
   //View the Trash Notes
   public viewTrash=async(body:Inote):Promise<Inote|null> =>{
+<<<<<<< Updated upstream
     return await Note.find({$and:[{createdBy:new Types.ObjectId(body.createBy)},{isTrash:true}]})
+=======
+    return await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isTrash:true}]})
+>>>>>>> Stashed changes
   }
   //  perform trash and restore operation
   public trash =async(noteId:string):Promise<Inote|null>=>{

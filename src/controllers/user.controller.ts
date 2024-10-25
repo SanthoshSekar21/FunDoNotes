@@ -106,8 +106,51 @@ class UserController {
     
     }
   };
+<<<<<<< Updated upstream
  
 
+=======
+<<<<<<< Updated upstream
+=======
+  public forgetPassword= async (
+    req: Request,
+    res: Response,
+  ): Promise<any> => {
+    try {
+       await this.UserService.forgetPassword(req.body);
+      
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          message: ` Token sent to Email SuccessFully`,
+          });
+      }
+     catch (error) {
+      
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        
+        message: `${error}`})
+    }
+  };
+  public resetPassword = async(req: Request,
+    res: Response,):Promise<any> =>{
+      try {
+        await this.UserService.resetPassword(req.body);
+          res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            message: "Password reset Successfully ",
+            });
+        }
+       catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          
+          message: `${error}`})
+      }
+    };
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   // /**
   //  * Controller to update a user
   //  * @param  {object} Request - request object

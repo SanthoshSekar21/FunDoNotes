@@ -1,0 +1,130 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T04:50:51.459Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T04:50:51.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T04:50:57.643Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T04:50:57.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T04:51:28.714Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T04:51:28.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:57:22.247Z"}
+error: Could not connect to the database. {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: \n    at NativeConnection.Connection.openUri (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\FunDoNotes\\FunDoNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:48:13)\n    at new App (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:34:10)\n    at Object.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\src\\index.ts:74:13)","timestamp":"2024-10-25T05:57:52.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T06:22:47.335Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T06:22:47.637Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T06:33:40.692Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T06:33:41.100Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-25T07:26:15.554Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/trash/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-10-25T07:27:16.300Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes/trash/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-25T07:29:00.907Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes/trash/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-25T07:30:09.489Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes/trash 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-25T07:30:58.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T07:33:25.058Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T07:33:25.475Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:27:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes/trash 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-25T07:35:16.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T07:43:15.135Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T07:43:15.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T08:11:18.474Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T08:11:18.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T08:11:43.663Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T08:11:43.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T08:40:31.181Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T08:40:31.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T09:10:14.553Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T09:10:14.633Z"}
