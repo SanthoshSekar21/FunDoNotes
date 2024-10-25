@@ -5,12 +5,6 @@ import jwt from 'jsonwebtoken';
 import { sendEmail } from '../utils/user.util';
 class UserService {
 
-  // //get all users
-  // public getAllUsers = async (): Promise<IUser[]> => {
-  //   const data = await User.find();
-  //   return data;
-  // };
-
   //create new user
   public newUser = async (body: IUser): Promise<IUser> => {
     const existingUser = await User.findOne({Email:body.Email}).exec();
@@ -41,20 +35,6 @@ class UserService {
     return [token,data[0].Firstname,data[0].Lastname];
     }
   };
-<<<<<<< Updated upstream
-  
- 
-
-
-
-
-
-
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-  // //update a user
-=======
   
   public forgetPassword= async(body):Promise<any> =>{
     if (!body.Email) {
@@ -64,7 +44,7 @@ class UserService {
     const data = await User.find({ Email: body.Email });
     if(data.length==0)
       throw new Error("No user exists")
-    const token = jwt.sign({Email:body.Email}, process.env.JWT_FORGETSECRET,{expiresIn:'10m'});
+    const token = jwt.sign({Email:body.Email},process.env.JWT_FORGETSECRET,{expiresIn:'10m'});
     const subject = 'Password Reset Token';
     const message = `Your password reset token is: ${token}`;
     await sendEmail({
@@ -75,41 +55,12 @@ class UserService {
   return token;
   }
   public resetPassword= async(body):Promise<any>=>{
-   const  decoded: any = await jwt.verify(body.accessToken, process.env.JWT_FORGETSECRET);
-    const email = decoded.Email
-    const hashedPassword=await bcrypt.hash(body.Password,10);
-    body.Password=hashedPassword;
-    return await User.updateOne({Email:email},{Password:hashedPassword})
-     
-  
-  }
+    console.log(body.Password,"-----------------------------");
+    console.log(body.Email,",,,,,,,,,,,,,,")
+    const hashedPassword = await bcrypt.hash(body.Password, 10);    
+    return await User.updateOne({Email:body.email},{Password:hashedPassword})
+   }
 
-    // //update a user
->>>>>>> Stashed changes
-  // public updateUser = async (_id: string, body: IUser): Promise<IUser> => {
-  //   const data = await User.findByIdAndUpdate(
-  //     {
-  //       _id
-  //     },
-  //     body,
-  //     {
-  //       new: true
-  //     }
-  //   );
-  //   return data;
-  // };
-
-  //delete a user
-  // public deleteUser = async (_id: string): Promise<string> => {
-  //   await User.findByIdAndDelete(_id);
-  //   return '';
-  // };
-
-  //get a single user
-  // public getUser = async (_id: string): Promise<IUser> => {
-  //   const data = await User.findById(_id);
-  //   return data;
-  // };
 }
 
 export default UserService;

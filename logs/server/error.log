@@ -1936,3 +1936,167 @@ error:
    {"timestamp":"2024-10-25T07:35:16.025Z"}
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-25T10:34:07.295Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-25T10:34:24.832Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-25T10:35:00.587Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-25T11:00:49.087Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-25T11:03:08.449Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:30:30
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:50:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-25T11:23:07.198Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:30:30
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:50:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-25T11:57:04.325Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-25T12:21:20.861Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:30:30
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:52:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-25T12:29:42.060Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2024-10-25T12:31:41.079Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:30:35
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:52:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-25T12:32:07.735Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\FunDoNotes\FunDoNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:30:36
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:52:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-25T12:42:00.477Z"}
