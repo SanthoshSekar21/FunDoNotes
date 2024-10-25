@@ -27,8 +27,6 @@ class UserValidator {
   }
   next();
 }
-<<<<<<< Updated upstream
-=======
 public forgetPassword=(req:Request,res:Response,next:NextFunction):void =>{
   const schema = Joi.object({
   Email:Joi.string().required(),
@@ -43,7 +41,7 @@ next();
 public resetPassword=(req:Request,res:Response,next:NextFunction):void =>{
   const schema = Joi.object({
     Password:Joi.string().min(8).required(),
-    accessToken:Joi.string()
+    
 });
 
  const { error } = schema.validate(req.body);
@@ -52,7 +50,6 @@ if (error) {
 }
 next();
 }
->>>>>>> Stashed changes
 }
 
 export default UserValidator;

@@ -21,28 +21,17 @@ class UserRoutes {
     );
     this.router.post('/login',
       this.UserValidator.loginUser,
-<<<<<<< Updated upstream
       this.UserController.loginUser);
 
-     
-=======
-<<<<<<< Updated upstream
-      this.UserController.loginUser)
-=======
-      this.UserController.loginUser);
+      this.router.post('/forgetPassword',
+        this.UserValidator.forgetPassword,
+        this.UserController.forgetPassword)
 
-      this.router.post('/forgetPassword',this.UserValidator.forgetPassword,this.UserController.forgetPassword)
-      this.router.put('/resetpassword',this.UserValidator.resetPassword,this.UserController.resetPassword)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-    // //route to get a single user
-    // this.router.get('/:_id',  this.UserController.getUser);
-
-    // //route to update a single user
-    // this.router.put('/:_id', this.UserController.updateUser);
-
-    // //route to delete a single user
-    // this.router.delete('/:_id', this.UserController.deleteUser);
+      this.router.put('/resetpassword/',
+        this.UserValidator.resetPassword,
+        userAuth,
+        this.UserController.resetPassword)
+    
   };
 
   public getRoutes = (): IRouter => {

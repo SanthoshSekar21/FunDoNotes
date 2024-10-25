@@ -50,11 +50,8 @@
           }
         }
       },
-<<<<<<< Updated upstream
-=======
 
       
->>>>>>> Stashed changes
       "/users/login": {
         "post": {
           "tags": [
@@ -85,13 +82,11 @@
           },
           "security": [
             {
-              "JWT": []
+             "JWT": [] 
             }
           ]
         }
       },
-<<<<<<< Updated upstream
-=======
       "/users/forgetPassword": {
         "post": {
             "tags": ["User"],
@@ -145,10 +140,14 @@
                     "500": {
                         "description": "Internal server error"
                     }
-                }
+                  },
+                    "security": [
+                      {
+                          "JWT": []
+                      }
+                  ]
             }
         },
->>>>>>> Stashed changes
       "/notes/createnote": {
         "post": {
           "tags": [
@@ -379,13 +378,8 @@
           ]
         }
       },
-<<<<<<< Updated upstream
-      "/notes/trash": {
-        "delete": {
-=======
       "/notes/trash/": {
         "get": {
->>>>>>> Stashed changes
           "tags": [
             "Notes"
           ],
@@ -441,10 +435,6 @@
             }
           ]
         }
-<<<<<<< Updated upstream
-      }
-    },
-=======
       },
         "/notes/permanentlydelete/{noteId}": {
           "delete": {
@@ -480,7 +470,6 @@
           }
       }
       },
->>>>>>> Stashed changes
     "components": {
       "schemas": {
         "User": {
@@ -511,8 +500,6 @@
             }
           }
         },
-<<<<<<< Updated upstream
-=======
         "forgetPassword":{
           "type": "object",
          "properties": {
@@ -524,15 +511,11 @@
         "resetPassword":{
           "type": "object",
           "properties": {
-            "accessToken": {
-                  "type": "string"
-              },
               "Password": {
                   "type": "string"
           }
        }
     },
->>>>>>> Stashed changes
         "Note": {
           "type": "object",
           "properties": {
