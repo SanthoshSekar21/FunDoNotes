@@ -32,7 +32,11 @@ class NoteRoutes {
     //route to delete a note
     this.router.delete('/delete/:noteId',userAuth, this.NoteController.deleteNote);
     //route to a trash
+<<<<<<< Updated upstream
     this.router.delete('/trash/:noteId',userAuth,this.NoteController.trash);
+=======
+    this.router.put('/trash/:noteId',userAuth,this.NoteController.trash);
+>>>>>>> Stashed changes
     //route to view the trash note
     this.router.get('/trash',userAuth,this.NoteController.viewTrash);
     // route to a archeive

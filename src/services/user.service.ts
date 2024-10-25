@@ -41,6 +41,7 @@ class UserService {
     return [token,data[0].Firstname,data[0].Lastname];
     }
   };
+<<<<<<< Updated upstream
   
  
 
@@ -49,7 +50,42 @@ class UserService {
 
 
 
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
   // //update a user
+=======
+  
+  public forgetPassword= async(body):Promise<any> =>{
+    if (!body.Email) {
+      throw new Error("Email is required");
+  }
+
+    const data = await User.find({ Email: body.Email });
+    if(data.length==0)
+      throw new Error("No user exists")
+    const token = jwt.sign({Email:body.Email}, process.env.JWT_FORGETSECRET,{expiresIn:'10m'});
+    const subject = 'Password Reset Token';
+    const message = `Your password reset token is: ${token}`;
+    await sendEmail({
+      recipients: body.Email, // Send to the user's email
+      subject: subject,
+      message: message
+  });
+  return token;
+  }
+  public resetPassword= async(body):Promise<any>=>{
+   const  decoded: any = await jwt.verify(body.accessToken, process.env.JWT_FORGETSECRET);
+    const email = decoded.Email
+    const hashedPassword=await bcrypt.hash(body.Password,10);
+    body.Password=hashedPassword;
+    return await User.updateOne({Email:email},{Password:hashedPassword})
+     
+  
+  }
+
+    // //update a user
+>>>>>>> Stashed changes
   // public updateUser = async (_id: string, body: IUser): Promise<IUser> => {
   //   const data = await User.findByIdAndUpdate(
   //     {

@@ -21,9 +21,20 @@ class UserRoutes {
     );
     this.router.post('/login',
       this.UserValidator.loginUser,
+<<<<<<< Updated upstream
       this.UserController.loginUser);
 
      
+=======
+<<<<<<< Updated upstream
+      this.UserController.loginUser)
+=======
+      this.UserController.loginUser);
+
+      this.router.post('/forgetPassword',this.UserValidator.forgetPassword,this.UserController.forgetPassword)
+      this.router.put('/resetpassword',this.UserValidator.resetPassword,this.UserController.resetPassword)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     // //route to get a single user
     // this.router.get('/:_id',  this.UserController.getUser);
 
