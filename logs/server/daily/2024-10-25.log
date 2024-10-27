@@ -348,3 +348,12 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T1
 info: Connected to the database. {"timestamp":"2024-10-25T15:13:04.036Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T15:13:12.804Z"}
 info: Connected to the database. {"timestamp":"2024-10-25T15:13:12.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T15:16:26.781Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T15:16:26.890Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-25T15:17:39.347Z"}

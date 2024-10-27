@@ -1,4 +1,4 @@
- {
+{
     "keep": {
         "days": true,
         "amount": 14
@@ -54,6 +54,16 @@
             "date": 1729831850371,
             "name": "logs\\server\\daily\\2024-10-25.log",
             "hash": "ed6d74096627d1ad637b67af9caa0898593852a16cd0130e6f5d5204e9f88b8b"
+        },
+        {
+            "date": 1729914519346,
+            "name": "logs\\server\\daily\\2024-10-26.log",
+            "hash": "815c22c26ded5be230336a3bfde35f86683a31dd94f7903d212630120c493c15"
+        },
+        {
+            "date": 1730014457779,
+            "name": "logs\\server\\daily\\2024-10-27.log",
+            "hash": "d833046dbca3f80dca0bd3216987c64ecd86c9d1246deed555a0ba24b45ae4b0"
         }
     ],
     "hashType": "sha256"

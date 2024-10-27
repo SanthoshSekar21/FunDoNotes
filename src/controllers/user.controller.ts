@@ -23,7 +23,7 @@ class UserController {
       const data = await this.UserService.newUser(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
-        message: `${req.body.Firstname}${req.body.Lastname} registered Successfully!`
+        message: `${req.body.Firstname} ${req.body.Lastname} registered Successfully!`
       });
     } catch (error) {
       res.status(HttpStatus.BAD_REQUEST).json({
@@ -83,6 +83,7 @@ class UserController {
   public resetPassword = async(req: Request,
     res: Response,):Promise<any> =>{
       try {
+        console.log(req)
         await this.UserService.resetPassword(req.body);
           res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
