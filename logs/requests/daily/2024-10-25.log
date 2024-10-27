@@ -222,3 +222,21 @@ info: ::1 - - [25/Oct/2024:15:11:00 +0000] "PUT /api/v1/users/resetpassword HTTP
 
 info: ::1 - - [25/Oct/2024:15:11:46 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 53 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [25/Oct/2024:15:16:59 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:17:39 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:18:03 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:18:04 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:18:04 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:18:04 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 200 14595 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:18:04 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:18:06 +0000] "GET /api/v1/api-doc/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:15:18:33 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+

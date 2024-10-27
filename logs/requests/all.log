@@ -1411,3 +1411,163 @@ info: ::1 - - [25/Oct/2024:15:18:04 +0000] "GET /api/v1/api-doc/swagger-ui-stand
 
 info: ::1 - - [25/Oct/2024:15:18:06 +0000] "GET /api/v1/api-doc/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
 
+info: ::1 - - [25/Oct/2024:15:18:33 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Oct/2024:04:12:03 +0000] "POST /api/v1/users/register HTTP/1.1" 201 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Oct/2024:04:12:39 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Oct/2024:04:13:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Oct/2024:04:14:02 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:05:58:10 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'
+AssertionError: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'
+    at Test.<anonymous> (tests\integration\user.test.ts:52:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Oct 26 2024 11:28:11 GMT+0530 (India Standard Time)","error":{"actual":"Error: Email Id is Aldready Exists","message":"expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:52:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87829.125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FunDoNotes\\FunDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18290053,"external":21308771,"heapTotal":103841792,"heapUsed":64560984,"rss":134844416},"pid":13308,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:52:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":52,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:05:58:11 +0000] "POST /api/v1/users/register HTTP/1.1" 400 59 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'
+AssertionError: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'
+    at Test.<anonymous> (tests\integration\user.test.ts:52:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Oct 26 2024 11:28:11 GMT+0530 (India Standard Time)","error":{"actual":"Error: Email Id is Aldready Exists","message":"expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:52:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87829.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FunDoNotes\\FunDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18290053,"external":21308771,"heapTotal":103841792,"heapUsed":64628784,"rss":134848512},"pid":13308,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 'Error: Email Id is Aldready Exists' to include 'Email Id is Already Exists'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:52:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":52,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:05:58:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:05:58:11 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:05:58:11 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:06:14:07 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:06:14:08 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:06:14:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:06:14:08 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2024:06:14:09 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:34:25 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:34:25 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:34:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:34:26 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:34:26 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:35:12 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:35:12 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:35:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:35:13 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:07:35:13 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:36:50 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+    at Test.<anonymous> (tests\integration\user.test.ts:42:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sun Oct 27 2024 14:06:50 GMT+0530 (India Standard Time)","error":{"actual":"JohnDoe registered Successfully!","expected":"John Doe registered Successfully!","message":"expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8093.328},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FunDoNotes\\FunDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302000,"external":21322123,"heapTotal":102789120,"heapUsed":77264552,"rss":136404992},"pid":4160,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:36:50 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:36:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:36:51 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:36:51 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:27 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+    at Test.<anonymous> (tests\integration\user.test.ts:42:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sun Oct 27 2024 14:10:27 GMT+0530 (India Standard Time)","error":{"actual":"JohnDoe registered Successfully!","expected":"John Doe registered Successfully!","message":"expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8310.609},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FunDoNotes\\FunDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18304697,"external":21324820,"heapTotal":103051264,"heapUsed":78324560,"rss":137039872},"pid":5568,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:28 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+    at Test.<anonymous> (tests\integration\user.test.ts:42:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sun Oct 27 2024 14:10:47 GMT+0530 (India Standard Time)","error":{"actual":"JohnDoe registered Successfully!","expected":"John Doe registered Successfully!","message":"expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8330.375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FunDoNotes\\FunDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18304697,"external":21324820,"heapTotal":102789120,"heapUsed":76561840,"rss":136445952},"pid":6316,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:47 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:48 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:40:48 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:43:17 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'
+    at Test.<anonymous> (tests\integration\user.test.ts:42:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sun Oct 27 2024 14:13:17 GMT+0530 (India Standard Time)","error":{"actual":"JohnDoe registered Successfully!","expected":"John Doe registered Successfully!","message":"expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8479.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FunDoNotes\\FunDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18312198,"external":21332321,"heapTotal":103579648,"heapUsed":77282336,"rss":136933376},"pid":1484,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 'JohnDoe registered Successfully!' to equal 'John Doe registered Successfully!'\n    at Test.<anonymous> (tests\\integration\\user.test.ts:42:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:43:17 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:43:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:43:17 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:43:17 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:47:35 +0000] "POST /api/v1/users/register HTTP/1.1" 201 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:47:35 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:47:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:47:36 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2024:08:47:36 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+

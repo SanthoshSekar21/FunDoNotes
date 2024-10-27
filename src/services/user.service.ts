@@ -9,7 +9,7 @@ class UserService {
   public newUser = async (body: IUser): Promise<IUser> => {
     const existingUser = await User.findOne({Email:body.Email}).exec();
     if(existingUser){
-      throw new Error("Email Id is Aldready Exists")
+      throw new Error("Email Id is Already Exists")
     }
     const hashedPassword=await bcrypt.hash(body.Password,10);
     body.Password=hashedPassword;
@@ -29,8 +29,7 @@ class UserService {
     else{
       const token = jwt.sign(
         { id: data[0]._id, email: data[0].Email }, 
-        process.env.JWT_SECRET,
-        { expiresIn: '2h' }
+        process.env.JWT_SECRET
     );
     return [token,data[0].Firstname,data[0].Lastname];
     }
@@ -55,8 +54,6 @@ class UserService {
   return token;
   }
   public resetPassword= async(body):Promise<any>=>{
-    console.log(body.Password,"-----------------------------");
-    console.log(body.Email,",,,,,,,,,,,,,,")
     const hashedPassword = await bcrypt.hash(body.Password, 10);    
     return await User.updateOne({Email:body.email},{Password:hashedPassword})
    }
