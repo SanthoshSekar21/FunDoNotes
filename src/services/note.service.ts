@@ -24,33 +24,11 @@ class NoteService {
       throw new Error("Note not found");
     return note;
   }
-
-// public async getAllNotes(body: Inote): Promise<Inote[]> {
-//   const createdBy = body.createBy;
-//   console.log('CreatedBy:', createdBy);
-
-//   // Ensure it's cast correctly as ObjectId only if needed
-//   const queryCreatedBy = Types.ObjectId.isValid(createdBy)
-//     ? new Types.ObjectId(createdBy)
-//     : createdBy;
-
-//   return await Note.find({
-//     $and: [
-//       { createdBy: queryCreatedBy }, // Safely cast as ObjectId if necessary
-//       { isTrash: false },
-//       { isArchive: false }
-//     ]
-//   });
-// }
-
      public getNote = async (noteId:string): Promise<Inote | null> => {
         // Find the note by its _id
         console.log(noteId);
         const note = await Note.findOne({$and:[{ _id: new Types.ObjectId(noteId)},{isTrash:false},{isArchive:false}]});
         // If note doesn't exist, throw an error
-        if (!note) {
-            throw new Error("Note not found");
-        }
         return note;
     };
 
@@ -67,9 +45,6 @@ class NoteService {
   }
   // Delete a note by ID
   public async deleteNote(noteId: string): Promise<Inote | null> {
-    if(!noteId){
-      throw new Error("note id is required");
-    }
     let note=await Note.findOne({$and:[{_id:noteId},{isTrash:false}]});
     if(!note)
       throw new Error ('Note not found');
