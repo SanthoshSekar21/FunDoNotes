@@ -1,30 +1,27 @@
 import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
-
 import app from '../../src/index';
 
-describe('User APIs Test', () => {
-  before((done) => {
-    const clearCollections = () => {
+describe('User and Note APIs Test', () => {
+  let userToken: string;
+  let createdNoteId: string;
+
+  before(async () => {
+    const clearCollections = async () => {
       for (const collection in mongoose.connection.collections) {
-        mongoose.connection.collections[collection].deleteOne(() => {});
+        await mongoose.connection.collections[collection].deleteMany({});
       }
     };
 
-    const mongooseConnect = async () => {
-      await mongoose.connect(process.env.DATABASE_TEST);
-      clearCollections();
-    };
-
     if (mongoose.connection.readyState === 0) {
-      mongooseConnect();
+      await mongoose.connect(process.env.DATABASE_TEST);
+      await clearCollections();
     } else {
-      clearCollections();
+      await clearCollections();
     }
+  });
 
-    done();
-  });  
   const mockUser = {
     Firstname: 'John',
     Lastname: 'Doe',
@@ -32,76 +29,153 @@ describe('User APIs Test', () => {
     Password: 'password123'
   };
 
-  describe('POST/users/register', () => {
-    it('should create a new user with hashed password', (done) => {
-      request(app.getApp())
+  describe('User registeration', () => {
+    it('should create a new user with hashed password', async () => {
+      const res = await request(app.getApp())
         .post('/api/v1/users/register')
-        .send(mockUser)
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(201);
-          expect(res.body.message).to.equal(`${mockUser.Firstname} ${mockUser.Lastname} registered Successfully!`);
-          done();
-        });
-    });
-     it('should return an error if the email already exists', (done) => {
-      request(app.getApp())
-        .post('/api/v1/users/register')
-        .send(mockUser) // Attempting to register the same user again
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(400);
-          expect(res.body.message).to.include('Email Id is Already Exists');
-          done();
-        });
+        .send(mockUser);
+
+      expect(res.statusCode).to.be.equal(201);
+      expect(res.body.message).to.equal(`${mockUser.Firstname} ${mockUser.Lastname} registered Successfully!`);
     });
 
-    
-  });
-  describe('POST/users/login', () => {
-    it('should log in the user successfully', (done) => {
-      const loginDetails = {
-        Email: mockUser.Email,
-        Password: mockUser.Password
-      };
-      request(app.getApp())
-        .post('/api/v1/users/login')
-        .send(loginDetails)
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.token).to.be.a('string');
-          expect(res.body.message).to.equal(`${mockUser.Firstname} ${mockUser.Lastname} login Successful!`);         
-          done();
-        });
+    it('should return an error if the email already exists', async () => {
+      const res = await request(app.getApp())
+        .post('/api/v1/users/register')
+        .send(mockUser);
+
+      expect(res.statusCode).to.be.equal(400);
+      expect(res.body.message).to.include('Email Id is Already Exists');
     });
-    it('should return error if user does not exist', (done) => {
-      const invalidUser = {
-        Email: 'nonexistent.email@example.com',
-        Password: 'somepassword'
-      };
-        request(app.getApp())
+
+    describe('User Login', () => {
+      it('should log in the user successfully', async () => {
+        const loginDetails = {
+          Email: mockUser.Email,
+          Password: mockUser.Password
+        };
+        const res = await request(app.getApp())
           .post('/api/v1/users/login')
-          .send(invalidUser)
-          .end((err, res) => {
-            expect(res.statusCode).to.be.equal(400);
-            expect(res.body.message).to.include('No user exists');
-            done();
-          });
+          .send(loginDetails);
+
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body.token).to.be.a('string');
+        expect(res.body.message).to.equal(`${mockUser.Firstname} ${mockUser.Lastname} login Successful!`);
+        userToken = res.body.token;
       });
-      it('should return error for incorrect password', (done) => {
-        const mockUser = {
-          Email: 'john.doe@example.com',
+
+      it('should return error if user does not exist', async () => {
+        const invalidUser = {
+          Email: 'nonexistent.email@example.com',
+          Password: 'somepassword'
+        };
+        const res = await request(app.getApp())
+          .post('/api/v1/users/login')
+          .send(invalidUser);
+
+        expect(res.statusCode).to.be.equal(400);
+        expect(res.body.message).to.include('No user exists');
+      });
+
+      it('should return error for incorrect password', async () => {
+        const invalidPasswordUser = {
+          Email: mockUser.Email,
           Password: 'wrongpassword'
         };
-  
-        request(app.getApp())
+        const res = await request(app.getApp())
           .post('/api/v1/users/login')
-          .send(mockUser)
-          .end((err, res) => {
-            expect(res.statusCode).to.be.equal(400);
-            expect(res.body.message).to.include('Invalid Password');
-            done();
-          });
+          .send(invalidPasswordUser);
+
+        expect(res.statusCode).to.be.equal(400);
+        expect(res.body.message).to.include('Invalid Password');
       });
-    
+    });
   });
 
+  describe('Note APIs', () => {
+    it('should create a new note successfully', async () => {
+      const mockNote = {
+        title: 'Sample Note',
+        description: 'This is a sample note.'
+      };
+      const res = await request(app.getApp())
+        .post('/api/v1/notes/createnote')
+        .set('Authorization', `Bearer ${userToken}`)
+        .send(mockNote);
+
+      expect(res.statusCode).to.equal(201);
+      expect(res.body.message).to.equal('note created successfully');
+      expect(res.body.data).to.have.property('_id');
+      createdNoteId = res.body.data._id;
+    });
+
+    it('should retrieve all notes for the user', async () => {
+      const res = await request(app.getApp())
+        .get('/api/v1/notes/viewall')
+        .set('Authorization', `Bearer ${userToken}`);
+
+      expect(res.statusCode).to.equal(200);
+      expect(res.body.data).to.be.an('array');
+    });
+
+    it('should retrieve a note by ID', async () => {
+      const res = await request(app.getApp())
+        .get(`/api/v1/notes/viewone/${createdNoteId}`)
+        .set('Authorization', `Bearer ${userToken}`);
+
+      expect(res.statusCode).to.equal(200);
+      expect(res.body.data).to.have.property('_id', createdNoteId);
+    });
+
+    it('should update a note successfully', async () => {
+      const updatedNote = {
+        title: 'Updated Sample Note',
+        description: 'This is an updated note.'
+      };
+      const res = await request(app.getApp())
+        .put(`/api/v1/notes/update/${createdNoteId}`)
+        .set('Authorization', `Bearer ${userToken}`)
+        .send(updatedNote);
+
+      expect(res.statusCode).to.be.equal(200);
+      expect(res.body.message).to.equal('Note updated successfully');
+      expect(res.body.data).to.have.property('title', updatedNote.title);
+    });
+
+    it('should delete a note successfully', async () => {
+      const res = await request(app.getApp())
+        .delete(`/api/v1/notes/delete/${createdNoteId}`)
+        .set('Authorization', `Bearer ${userToken}`);
+
+      expect(res.statusCode).to.be.equal(200);
+      expect(res.body.message).to.equal('deleted successfully');
+    });
+
+    it('should retrieve all trashed notes', async () => {
+      const res = await request(app.getApp())
+        .get('/api/v1/notes/trash')
+        .set('Authorization', `Bearer ${userToken}`);
+
+      expect(res.statusCode).to.equal(200);
+      expect(res.body.data).to.be.an('array');
+    });
+
+    it('should retrieve all archived notes', async () => {
+      const res = await request(app.getApp())
+        .get('/api/v1/notes/archive')
+        .set('Authorization', `Bearer ${userToken}`);
+
+      expect(res.statusCode).to.equal(200);
+      expect(res.body.data).to.be.an('array');
+    });
+
+    it('should permanently delete a note', async () => {
+      const res = await request(app.getApp())
+        .delete(`/api/v1/notes/permanentlydelete/${createdNoteId}`)
+        .set('Authorization', `Bearer ${userToken}`);
+
+      expect(res.statusCode).to.equal(200);
+      expect(res.body.message).to.equal('deleted successfully');
+    });
+  });
 });
