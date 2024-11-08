@@ -1,0 +1,66 @@
+info: ::1 - - [29/Oct/2024:05:45:11 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:45:11 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:45:11 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:45:11 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:45:12 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:46:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:47:08 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 268 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:47:21 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:48:06 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 230 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:49:22 +0000] "PUT /api/v1/notes/update/672076dbd268701cdcfedae2 HTTP/1.1" 200 313 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:49:43 +0000] "DELETE /api/v1/notes/delete/672076dbd268701cdcfedae2 HTTP/1.1" 200 45 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:49:56 +0000] "GET /api/v1/notes/trash/ HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:50:19 +0000] "PUT /api/v1/notes/trash/672076dbd268701cdcfedae2 HTTP/1.1" 200 66 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:50:34 +0000] "GET /api/v1/notes/archive HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:50:48 +0000] "PUT /api/v1/notes/archive/672076dbd268701cdcfedae2 HTTP/1.1" 200 325 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:51:03 +0000] "GET /api/v1/notes/archive HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:51:15 +0000] "GET /api/v1/notes/archive HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:51:25 +0000] "PUT /api/v1/notes/archive/672076dbd268701cdcfedae2 HTTP/1.1" 200 316 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:51:39 +0000] "DELETE /api/v1/notes/permanentlydelete/672076dbd268701cdcfedae2 HTTP/1.1" 200 45 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Oct/2024:05:55:46 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:53 +0000] "POST /api/v1/users/register HTTP/1.1" 201 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:53 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 273 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "GET /api/v1/notes/viewone/6720873662b6701088f7c565 HTTP/1.1" 200 274 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "PUT /api/v1/notes/update/6720873662b6701088f7c565 HTTP/1.1" 200 322 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "DELETE /api/v1/notes/delete/6720873662b6701088f7c565 HTTP/1.1" 200 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Oct/2024:06:56:54 +0000] "DELETE /api/v1/notes/permanentlydelete/6720873662b6701088f7c565 HTTP/1.1" 200 45 "-" "node-superagent/3.8.3"
+

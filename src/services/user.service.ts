@@ -21,11 +21,9 @@ class UserService {
     const data = await User.find({ Email: body.Email });
     if(data.length==0)
      throw new Error("No user exists")
-  
     const passwordMatch=await bcrypt.compare(body.Password,data[0].Password)
     if(!passwordMatch)
-     throw new Error("Invalid Password")
-           
+     throw new Error("Invalid Password")           
     else{
       const token = jwt.sign(
         { id: data[0]._id, email: data[0].Email }, 
@@ -55,7 +53,7 @@ class UserService {
   }
   public resetPassword= async(body):Promise<any>=>{
     const hashedPassword = await bcrypt.hash(body.Password, 10);    
-    return await User.updateOne({Email:body.email},{Password:hashedPassword})
+    return await User.updateOne({Email:body.Email},{Password:hashedPassword})
    }
 
 }
