@@ -2322,3 +2322,121 @@ AssertionError: expected 200 to equal 400
     at Server.emit (node:domain:488:12)
     at emitCloseNT (node:net:2340:8)
     at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sun Oct 27 2024 17:37:58 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":400,"message":"expected 200 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 400\n    at Test.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\tests\\integration\\note.test.ts:104:38)\n    at Test.assert (E:\\FunDoNotes\\FunDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\FunDoNotes\\FunDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":20761.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FunDoNotes\\FunDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\FunDoNotes\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18312135,"external":21332218,"heapTotal":106987520,"heapUsed":78777616,"rss":140550144},"pid":10636,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 400\n    at Test.<anonymous> (E:\\FunDoNotes\\FunDoNotes\\tests\\integration\\note.test.ts:104:38)\n    at Test.assert (E:\\FunDoNotes\\FunDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\FunDoNotes\\FunDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-10-27T12:07:58.310Z","trace":[{"column":38,"file":"E:\\FunDoNotes\\FunDoNotes\\tests\\integration\\note.test.ts","function":null,"line":104,"method":null,"native":false},{"column":6,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\FunDoNotes\\FunDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 401
+      message - Invalid or expired token 
+      url - /api/v1/users/resetpassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-28T16:45:16.302Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:89:33
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:12:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:12)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:54:83
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:51:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-28T16:45:16.785Z"}
+error: 
+      status - 401
+      message - Invalid or expired token 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-28T16:49:24.631Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:89:33
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:12:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:12)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:54:83
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:51:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-28T16:49:24.666Z"}
+error: 
+      status - 400
+      message - Bearer token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-28T16:49:58.484Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 73
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/update/672076dbd268701cdcfedae2 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-29T05:48:55.021Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-06T15:30:14.318Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-06T15:30:27.869Z"}

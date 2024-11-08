@@ -22,3 +22,134 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T0
 info: Connected to the database. {"timestamp":"2024-10-28T09:51:42.485Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T09:54:37.968Z"}
 info: Connected to the database. {"timestamp":"2024-10-28T09:54:38.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T11:00:27.285Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T11:00:28.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T11:07:14.465Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T11:07:14.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T11:37:14.042Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T11:37:14.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T11:56:17.463Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T11:56:18.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T11:56:52.651Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T11:56:52.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T12:10:36.804Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T12:10:38.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T15:37:08.581Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T15:37:10.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T15:57:34.323Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T15:57:34.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T15:59:14.750Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T15:59:14.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:01:15.267Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:01:15.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:15:23.802Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:15:23.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:15:37.428Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:15:37.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:38:19.364Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:38:19.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:40:47.945Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:40:48.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:45:10.647Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:45:10.708Z"}
+error: 
+      status - 401
+      message - Invalid or expired token 
+      url - /api/v1/users/resetpassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-28T16:45:16.302Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:89:33
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:12:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:12)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:54:83
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:51:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-28T16:45:16.785Z"}
+error: 
+      status - 401
+      message - Invalid or expired token 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-28T16:49:24.631Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:89:33
+    at Generator.next (<anonymous>)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:12:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:8:12)
+    at E:\FunDoNotes\FunDoNotes\src\middlewares\auth.middleware.ts:54:83
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.resetPassword (E:\FunDoNotes\FunDoNotes\src\validators\user.validator.ts:51:1)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FunDoNotes\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-28T16:49:24.666Z"}
+error: 
+      status - 400
+      message - Bearer token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-10-28T16:49:58.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:52:12.722Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:52:12.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:53:33.976Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:53:34.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T16:53:55.757Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T16:53:55.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:01:44.660Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:01:44.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:04:26.675Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:04:26.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:06:19.122Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:06:19.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:13:05.423Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:13:05.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:18:21.699Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:18:21.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:19:17.174Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:19:17.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:20:19.356Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:20:19.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:22:47.604Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:22:47.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:25:11.091Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:25:11.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:34:44.164Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:34:45.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:34:52.410Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:34:52.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:40:43.974Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:40:44.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:41:44.850Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:41:44.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-28T17:45:01.927Z"}
+info: Connected to the database. {"timestamp":"2024-10-28T17:45:02.167Z"}

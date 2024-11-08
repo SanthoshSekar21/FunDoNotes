@@ -1,0 +1,136 @@
+info: ::1 - - [06/Nov/2024:08:39:01 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 400 89 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [06/Nov/2024:09:26:44 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:09:26:45 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:09:26:46 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:09:26:46 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:09:26:46 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:09:26:47 +0000] "GET /api/v1/api-doc/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:09:27:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:09:31:39 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:31:55 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:31:57 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:31:59 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:32:47 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:32:54 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:38:09 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:38:30 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:38:36 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:38:39 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:38:47 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:40:35 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:40:37 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:41:35 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:41:38 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:43:53 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:43:54 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:44:04 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:44:07 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:44:09 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:49:26 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:49:28 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:49:44 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:53:13 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:53:17 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:53:54 +0000] "GET /api/v1/notes/viewOne/672076dbd268701cdcfedae2 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:09:54:01 +0000] "GET /api/v1/notes/viewone/672076dbd268701cdcfedae2 HTTP/1.1" 200 303 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:01:50 +0000] "GET /api/v1/notes/createnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:02:24 +0000] "GET /api/v1/notes/createnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:02:30 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 274 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:02:58 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:03:22 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:10:49 +0000] "GET /api/v1/notes/viewAll HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:11:36 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 274 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:13:41 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 313 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:14:59 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 533 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:15:17 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 561 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:15:35 +0000] "GET /api/v1/notes/viewone/672b415567f1682644a2c709 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:17:46 +0000] "GET /api/v1/notes/viewone/672b415567f1682644a2c709 HTTP/1.1" 200 303 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:17:48 +0000] "GET /api/v1/notes/viewone/672b415567f1682644a2c709 HTTP/1.1" 200 303 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:10:17:48 +0000] "GET /api/v1/notes/viewone/672b415567f1682644a2c709 HTTP/1.1" 200 303 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:29:52 +0000] "DELETE /api/v1/notes/delete/672b415567f1682644a2c709 HTTP/1.1" 200 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:30:14 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 277 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:30:41 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:34:21 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:34:49 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:35:32 +0000] "GET /api/v1/notes/trash/ HTTP/1.1" 200 305 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:11:39:41 +0000] "GET /api/v1/notes/trash/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:11:40:58 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:42:21 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:11:43:48 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 305 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [06/Nov/2024:15:29:33 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:29:33 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:29:34 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:29:34 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:29:34 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:30:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:30:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:31:41 +0000] "GET /api/v1/notes/trash/ HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Nov/2024:15:32:01 +0000] "GET /api/v1/notes/trash/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+

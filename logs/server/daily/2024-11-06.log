@@ -1,0 +1,90 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T08:36:36.519Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T08:36:42.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T08:39:43.830Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T08:39:44.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:24:28.610Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:24:32.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:25:15.443Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:25:15.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:31:09.062Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:31:09.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:31:25.618Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:31:25.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:36:03.803Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:36:04.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:37:32.678Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:37:33.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:37:53.819Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:37:53.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:38:27.983Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:38:28.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:40:32.020Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:40:32.163Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:41:28.302Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:41:28.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:42:59.770Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:42:59.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:48:58.882Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:48:59.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:49:22.517Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:49:22.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:51:32.620Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:51:32.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:00:29.508Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:00:29.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:10:14.590Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:10:14.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:10:45.488Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:10:45.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:13:22.696Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:13:22.771Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:51:56.258Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:51:57.715Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:26:51.480Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:26:51.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:39:09.052Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:39:09.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:39:24.035Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:39:24.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:43:36.482Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:43:36.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:43:44.100Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:43:44.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T15:27:55.040Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T15:27:57.609Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-06T15:29:01.016Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T15:29:01.257Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-06T15:30:14.318Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at parse (E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\FunDoNotes\FunDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\FunDoNotes\FunDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-06T15:30:27.869Z"}

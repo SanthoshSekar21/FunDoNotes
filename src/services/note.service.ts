@@ -1,34 +1,34 @@
 import Note from '../models/note.model';
 import { Inote } from '../interfaces/note.interface'; 
-import  User from '../models/user.model';
 import { Types } from 'mongoose'; 
-import { string } from '@hapi/joi';
+import  redisClient  from '../config/redis'
 class NoteService {
   
   // Create a new note
-  
       public createNote = async (noteData: any): Promise<any> => {
     const newNote = await Note.create(noteData); 
     // createdBy is already part of noteData
-    newNote.createdBy=noteData.createBy;
-    newNote.save();
+    newNote.createdBy=noteData.createdBy;
+    await newNote.save();
+    await redisClient.del(noteData.createdBy);
+
     return newNote; 
   
 };
    
   // Get all notes for a specific user
-  public async getAllNotes(body:Inote): Promise<Inote[] > {
-   
-    let note= await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isTrash:false},{isArchive:false}]});
-    if(!note)
+  public async getAllNotes(body:Inote): Promise<Inote[]> {
+    let notes= await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isTrash:false},{isArchive:false}]});
+    if(!notes)
       throw new Error("Note not found");
-    return note;
+     await redisClient.setEx(`notes:${body.createdBy}`, 3600, JSON.stringify(notes));   
+     return notes;
   }
+
+  //Get Note BY Id
      public getNote = async (noteId:string): Promise<Inote | null> => {
-        // Find the note by its _id
-        console.log(noteId);
         const note = await Note.findOne({$and:[{ _id: new Types.ObjectId(noteId)},{isTrash:false},{isArchive:false}]});
-        // If note doesn't exist, throw an error
+        // await redisClient.setEx(`note:${noteId}`, 3600, JSON.stringify(note));
         return note;
     };
 
@@ -41,20 +41,27 @@ class NoteService {
     const updatedNote = await Note.findOneAndUpdate( {$and: [{_id: new Types.ObjectId(noteId) as any },{ isTrash: false },{ isArchive: false }]},noteData,{ new: true });
      if(!updatedNote)
       throw new Error ('Note not found');
+     await redisClient.del(updatedNote.createdBy);
     return updatedNote.save();
   }
+
   // Delete a note by ID
   public async deleteNote(noteId: string): Promise<Inote | null> {
     let note=await Note.findOne({$and:[{_id:noteId},{isTrash:false}]});
     if(!note)
       throw new Error ('Note not found');
     note.isTrash=!note.isTrash;
-    return note.save();
+    await note.save();
+    await redisClient.del(note.createdBy);
+   return await note.save();
+
   }
+
   //View the Trash Notes
-  public viewTrash=async(body:Inote):Promise<Inote|null> =>{
-    return await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isTrash:true}]})
-  }
+  public viewTrash=async(body:Inote):Promise<Inote|null> =>
+    await Note.find({$and:[{createdBy:body.createdBy},{isTrash:true}]})
+
+
   //  perform trash and restore operation
   public trash =async(noteId:string):Promise<Inote|null>=>{
     if(!noteId){
@@ -64,14 +71,15 @@ class NoteService {
     if(!note)
       throw new Error ('Note not found');
     note.isTrash=!note.isTrash;
-    return note.save();
-  
+    await note.save();
+    await redisClient.del(note.createdBy)
+    return note
   };
+
   //view the Archive note
   public viewArchive=async(body:Inote):Promise<Inote|null> =>
-  {
-    return await Note.find({$and:[{createdBy:new Types.ObjectId(body.createBy)},{isArchive:true}]})
-  }
+  await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isArchive:true}]})
+    
    //perform Archive operation
   public archive =async(noteId:string):Promise<Inote|null>=>{
     if(!noteId){
@@ -82,12 +90,14 @@ class NoteService {
       throw new Error("Note not found");
     }
     note.isArchive = !note.isArchive;
-    return note.save();
-  
+    await note.save();
+    await redisClient.del(note.createdBy);   
+     return note;
   };
   public pemanentlyDelete = async(noteId:string):Promise<Inote|null> => {
-    return await Note.deleteOne({$and:[{_id:noteId},{isTrash:true}]})
-   
+    const note= await Note.deleteOne({$and:[{_id:new Types.ObjectId(noteId)},{isTrash:true}]})
+    await redisClient.del(note.createdBy)
+    return note;
   };
 }
 

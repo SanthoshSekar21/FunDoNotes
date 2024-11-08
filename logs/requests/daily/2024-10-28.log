@@ -284,3 +284,135 @@ info: ::ffff:127.0.0.1 - - [28/Oct/2024:09:54:39 +0000] "GET /api/v1/notes/archi
 
 info: ::ffff:127.0.0.1 - - [28/Oct/2024:09:54:39 +0000] "DELETE /api/v1/notes/permanentlydelete/671f5f5e15a6b00630124176 HTTP/1.1" 200 45 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:33 +0000] "POST /api/v1/users/register HTTP/1.1" 201 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:34 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:34 +0000] "POST /api/v1/users/login HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:35 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:35 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 273 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:35 +0000] "GET /api/v1/notes/viewall HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:35 +0000] "GET /api/v1/notes/viewone/671f6ed3a71cec260c8fcaaa HTTP/1.1" 200 235 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:36 +0000] "PUT /api/v1/notes/update/671f6ed3a71cec260c8fcaaa HTTP/1.1" 200 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:36 +0000] "DELETE /api/v1/notes/delete/671f6ed3a71cec260c8fcaaa HTTP/1.1" 200 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:36 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:36 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Oct/2024:11:00:36 +0000] "DELETE /api/v1/notes/permanentlydelete/671f6ed3a71cec260c8fcaaa HTTP/1.1" 200 45 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [28/Oct/2024:11:11:44 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:15:36 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:21:32 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:38:00 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:18 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:19 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:19 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:20 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:20 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:20 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:20 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:46:24 +0000] "GET /api/v1/api-doc/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:52:54 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:57:48 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:57:48 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:57:48 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:57:48 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:57:48 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:11:57:50 +0000] "GET /api/v1/api-doc/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:11:04 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:11:05 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:11:05 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:11:05 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:11:05 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:11:08 +0000] "GET /api/v1/api-doc/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:12:15 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:12:30:33 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:15:37:29 +0000] "GET /api/v1/api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:15:37:30 +0000] "GET /api/v1/api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:15:37:30 +0000] "GET /api/v1/api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:15:37:30 +0000] "GET /api/v1/api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:15:37:30 +0000] "GET /api/v1/api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:15:40:51 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:02:02 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:45:16 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 401 49 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [28/Oct/2024:16:46:32 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:47:39 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 53 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [28/Oct/2024:16:49:24 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 401 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:49:58 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 400 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:50:42 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:52:20 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:52:22 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:16:52:44 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 53 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [28/Oct/2024:16:55:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:17:15:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:17:15:40 +0000] "POST /api/v1/notes/createnote HTTP/1.1" - - "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [28/Oct/2024:17:16:31 +0000] "POST /api/v1/notes/createnote HTTP/1.1" - - "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [28/Oct/2024:17:35:05 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 268 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [28/Oct/2024:17:41:03 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 271 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [28/Oct/2024:17:42:04 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:17:43:03 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:17:43:52 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Oct/2024:17:45:11 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+

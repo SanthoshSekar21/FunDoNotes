@@ -83,7 +83,6 @@ class UserController {
   public resetPassword = async(req: Request,
     res: Response,):Promise<any> =>{
       try {
-        console.log(req)
         await this.UserService.resetPassword(req.body);
           res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,

@@ -2,7 +2,8 @@ import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
 import { userAuth } from '../middlewares/auth.middleware';
-
+import dotenv from 'dotenv';
+dotenv.config();
 class UserRoutes {
   private UserController = new userController();
   private router = express.Router();
@@ -29,9 +30,8 @@ class UserRoutes {
 
       this.router.put('/resetpassword/',
         this.UserValidator.resetPassword,
-        userAuth,
-        this.UserController.resetPassword)
-    
+        userAuth(process.env.JWT_FORGETSECRET),
+        this.UserController.resetPassword);
   };
 
   public getRoutes = (): IRouter => {
