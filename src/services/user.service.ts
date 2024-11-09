@@ -3,6 +3,7 @@ import { IUser } from '../interfaces/user.interface';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { sendEmail } from '../utils/user.util';
+import {connectRabbitMQ} from '../utils/rabbitMQ'
 class UserService {
 
   //create new user
@@ -14,6 +15,9 @@ class UserService {
     const hashedPassword=await bcrypt.hash(body.Password,10);
     body.Password=hashedPassword;
     const data = await User.create(body);
+    const { sendToExchange } = await connectRabbitMQ();
+    await sendToExchange('userExchange', 'userRoutingKey',data);
+    
     return   data;
   };
   

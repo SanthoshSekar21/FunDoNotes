@@ -2440,3 +2440,17 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-11-06T15:30:27.869Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Firstname" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-08T11:47:39.455Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Firstname" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-08T11:47:49.880Z"}
