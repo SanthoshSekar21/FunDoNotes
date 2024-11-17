@@ -1,6 +1,8 @@
 import { Request, Response,NextFunction } from 'express';
 import HttpStatus from 'http-status-codes';
 import NoteService from '../services/note.service';
+import { Types } from 'mongoose';
+import noteModel from '../models/note.model';
 
 class NoteController {
   public NoteService = new NoteService()
@@ -14,7 +16,6 @@ class NoteController {
   // Create a new note
   public createNote = async (req: Request,
      res: Response,
-    next:NextFunction
     ): Promise<void> => {
     try {
       
@@ -34,7 +35,6 @@ class NoteController {
   public getAllNotes = async (req: Request, res: Response): Promise<void> => {
     try {
       const notes = await this.NoteService.getAllNotes(req.body);
-      
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: notes,
@@ -47,12 +47,9 @@ class NoteController {
     }
   };
   // Get a single note by ID
-  public getNote = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  public getNote = async (req: Request, res: Response): Promise<void> => {
     try {
-        const noteId = req.params.noteId; // Get noteId from route param
-        // Call the service to get the note
-        
-        const note = await this.NoteService.getNote(noteId);
+        const note = await this.NoteService.getNote(req.params.noteId);
 
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
@@ -69,9 +66,7 @@ class NoteController {
   // Update a note
   public updateNote = async (req: Request, res: Response): Promise<void> => {
     try {
-      const noteId = req.params.noteId;
-      const noteData = req.body;
-      const updatedNote = await this.NoteService.updateNote(noteId, noteData);
+      const updatedNote = await this.NoteService.updateNote(req.params.noteId, req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: updatedNote,
@@ -84,39 +79,9 @@ class NoteController {
       });
     }
   };
-  // Delete a note
-  public deleteNote = async (req: Request, res: Response): Promise<any> => {
-    try {
-      const noteId = req.params.noteId;
-      const deletedNote = await this.NoteService.deleteNote(noteId);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        message:'deleted successfully',
-      })
-    } catch (error) {
-      res.status(HttpStatus.BAD_REQUEST).json({
-        code: HttpStatus.BAD_REQUEST,
-        message: error.message,
-      });
-    }
-  };
- public  viewTrash=async(req:Request,res:Response):Promise<any>=>{
-  try{
-    const notes = await this.NoteService.viewTrash(req.body);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: notes,
-      });
-  } catch (error) {
-    res.status(HttpStatus.BAD_REQUEST).json({
-      code: HttpStatus.BAD_REQUEST,
-      message: `${error}`});
-  }
-  }
   public trash= async (req: Request, res: Response): Promise<any> => {
     try {
-      const noteId = req.params.noteId;
-      const trash = await this.NoteService.trash(noteId);
+      const trash = await this.NoteService.trash(req.params.noteId);
       const message = trash.isTrash
       ? 'Note moved to the Trash successfully'
       : 'Note restored from the trash successfully';
@@ -131,24 +96,10 @@ class NoteController {
       });
     }
   };
-  public  viewArchive=async(req:Request,res:Response):Promise<any>=>{
-    try{
-      const notes = await this.NoteService.viewArchive(req.body);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: notes,
-        });
-    } catch (error) {
-      res.status(HttpStatus.BAD_REQUEST).json({
-        code: HttpStatus.BAD_REQUEST,
-        message: `${error}`});
-    }
-    }
   
   public archive= async (req: Request, res: Response): Promise<any> => {
     try {
-      const noteId = req.params.noteId;
-      const archive = await this.NoteService.archive(noteId);
+      const archive = await this.NoteService.archive(req.params.noteId);
       const message = archive.isArchive 
       ? 'Note moved to the Archive successfully'
       : 'Note  UnArchive successfully';
@@ -166,8 +117,7 @@ class NoteController {
   };
   public PermanentlyDelete = async (req: Request, res: Response): Promise<any> => {
     try {
-      const noteId = req.params.noteId;
-      const deletedNote = await this.NoteService.pemanentlyDelete(noteId);
+      await this.NoteService.permanentlyDelete(req.params.noteId,req.body.createdBy);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         message:'deleted successfully',

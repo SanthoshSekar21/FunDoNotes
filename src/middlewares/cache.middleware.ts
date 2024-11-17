@@ -18,7 +18,6 @@ export const cache = async (req: Request, res: Response, next: NextFunction) => 
       next(); // Proceed to the next middleware/handler to fetch data from DB
     }
   } catch (error) {
-    console.error(error);
     return res.status(500).json({
       code: 500,
       message: `Internal Server Error: ${error.message}`,

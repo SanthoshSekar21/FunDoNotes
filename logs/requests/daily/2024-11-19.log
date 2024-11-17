@@ -1,0 +1,8 @@
+info: ::1 - - [19/Nov/2024:04:48:09 +0000] "POST /api/v1/users HTTP/1.1" 200 269 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Nov/2024:07:01:20 +0000] "POST /api/v1/users HTTP/1.1" 200 269 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Nov/2024:08:00:10 +0000] "POST /api/v1/users HTTP/1.1" 200 269 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Nov/2024:08:11:27 +0000] "POST /api/v1/users HTTP/1.1" 200 269 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+

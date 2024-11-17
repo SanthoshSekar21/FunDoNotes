@@ -20,7 +20,7 @@ class UserRoutes {
       this.UserValidator.newUser,
       this.UserController.newUser
     );
-    this.router.post('/login',
+    this.router.post('',
       this.UserValidator.loginUser,
       this.UserController.loginUser);
 

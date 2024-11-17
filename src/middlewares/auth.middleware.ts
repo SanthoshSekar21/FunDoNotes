@@ -26,7 +26,6 @@ export const userAuth = (secret: string) => {
       const user: any = await jwt.verify(bearerToken, secret);
       req.body.createdBy = user.id;
       req.body.Email = user.Email;
-
       next();
     } catch (error) {
       next(error);

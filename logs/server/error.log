@@ -2454,3 +2454,2338 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-11-08T11:47:49.880Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-17T07:36:55.827Z"}
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as delete] (D:\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (D:\FunDoNotes\src\routes\note.route.ts:42:23)
+    at new NoteRoutes (D:\FunDoNotes\src\routes\note.route.ts:14:10)
+    at routes (D:\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (D:\FunDoNotes\src\index.ts:53:52)
+    at new App (D:\FunDoNotes\src\index.ts:34:10)
+    at Object.<anonymous> (D:\FunDoNotes\src\index.ts:76:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (D:\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:114:20)
+    at require.extensions.<computed> (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Sun Nov 17 2024 08:09:21 GMT+0000 (Greenwich Mean Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":241711.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518223,"external":20715510,"heapTotal":77586432,"heapUsed":38077152,"rss":112177152},"pid":8856,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as delete] (D:\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (D:\\FunDoNotes\\src\\routes\\note.route.ts:42:23)\n    at new NoteRoutes (D:\\FunDoNotes\\src\\routes\\note.route.ts:14:10)\n    at routes (D:\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (D:\\FunDoNotes\\src\\index.ts:53:52)\n    at new App (D:\\FunDoNotes\\src\\index.ts:34:10)\n    at Object.<anonymous> (D:\\FunDoNotes\\src\\index.ts:76:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (D:\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-11-17T08:09:21.272Z","trace":[{"column":15,"file":"D:\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":216,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":521,"method":"<computed> [as delete]","native":false},{"column":23,"file":"D:\\FunDoNotes\\src\\routes\\note.route.ts","function":"NoteRoutes.routes","line":42,"method":"routes","native":false},{"column":10,"file":"D:\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":14,"method":null,"native":false},{"column":23,"file":"D:\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"D:\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":53,"method":"initializeRoutes","native":false},{"column":10,"file":"D:\\FunDoNotes\\src\\index.ts","function":"new App","line":34,"method":null,"native":false},{"column":13,"file":"D:\\FunDoNotes\\src\\index.ts","function":null,"line":76,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"D:\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T09:15:16.938Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:10:15.951Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:10:24.677Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:11:39.311Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T04:47:58.048Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T04:59:42.998Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:06:13.481Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:09:44.728Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:10:19.787Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:31:22.262Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:37:26.389Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:37:55.063Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:38:34.289Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:40:24.749Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:41:12.273Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:45:33.371Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at NoteValidator.newNote (D:\FunDoNotes\src\validators\note.validator.ts:15:5)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:46:07.296Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T05:48:13.049Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes?access_token= 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T06:41:46.049Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzk3ZDRjZDZiNGM4MTQ1ODkyMGNiMCIsImVtYWlsIjoic2FtdXJhaXNhbnRob3NoMjM0QGdtYWlsLmNvbSIsImlhdCI6MTczMjAwMzg4N30.lxJI_thWY25FmclLWYS3BF3eFJ-qYt1WvZXipI1kYac 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T06:43:29.995Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzk3ZDRjZDZiNGM4MTQ1ODkyMGNiMCIsImVtYWlsIjoic2FtdXJhaXNhbnRob3NoMjM0QGdtYWlsLmNvbSIsImlhdCI6MTczMjAwMzg4N30.lxJI_thWY25FmclLWYS3BF3eFJ-qYt1WvZXipI1kYac 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T06:43:36.331Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzk3ZDRjZDZiNGM4MTQ1ODkyMGNiMCIsImVtYWlsIjoic2FtdXJhaXNhbnRob3NoMjM0QGdtYWlsLmNvbSIsImlhdCI6MTczMjAwMzg4N30.lxJI_thWY25FmclLWYS3BF3eFJ-qYt1WvZXipI1kYac 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T06:47:32.459Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T06:55:15.356Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T06:59:06.861Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:02:02.630Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:03:03.540Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:05:21.596Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:06:10.190Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:06:28.528Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:10:05.048Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:12:09.502Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:13:02.395Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:14:20.847Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:16:06.908Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:16:16.032Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:16:19.970Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:17:37.979Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-20T07:26:26.322Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T08:33:42.592Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-20T10:31:08.248Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T03:58:09.194Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T03:58:12.411Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T03:58:14.202Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T04:07:54.931Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T04:07:56.269Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T04:07:56.486Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T04:07:56.789Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T04:07:56.929Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T04:07:57.154Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Firstname" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T05:35:34.507Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T05:39:56.190Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Lastname" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-21T05:51:40.727Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:56:33.201Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d784675b22b2b0cbc6232 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:56:49.467Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:58:20.326Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:58:53.196Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T12:00:11.346Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T12:04:16.942Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T12:04:27.597Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T12:09:18.190Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/: 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-22T12:39:30.716Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T04:51:10.197Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T04:51:23.979Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T04:54:02.425Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T04:54:50.656Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T04:55:23.129Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:00:43.932Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:02:23.856Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:03:40.628Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:04:49.241Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:08:37.999Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:11:59.218Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:15:12.352Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:16:15.767Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:19:55.662Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:24:21.771Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d87fd75b22b2b0cbc6235 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:30:11.898Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/67397e25d6b4c81458920cb5 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:31:09.235Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:32:01.631Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:48:38.508Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:55:22.790Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:57:25.131Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:04:25.450Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:06:32.037Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d87fd75b22b2b0cbc6235 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:08:05.218Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d87fd75b22b2b0cbc6235 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:12:02.683Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:12:28.931Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d87fd75b22b2b0cbc6235 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:14:23.873Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/674029d477fbb62fb8061c53 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:19:58.399Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/673d782475b22b2b0cbc622f 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2024-11-25T06:24:00.226Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:10:28.911Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:12:35.206Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:13:22.279Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:15:49.438Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:20:03.417Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:21:47.283Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:22:32.348Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:25:12.539Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:27:39.482Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d782475b22b2b0cbc622f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:29:09.054Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673d87fd75b22b2b0cbc6235/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-26T05:38:29.421Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673da4a075b22b2b0cbc624b/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-27T05:24:13.527Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/673da4a075b22b2b0cbc624b/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-27T05:24:56.098Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-27T08:23:32.958Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-27T08:25:03.326Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-27T08:26:13.411Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-27T08:27:15.524Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-27T08:27:44.458Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-27T08:28:37.077Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-27T08:28:56.936Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-28T17:45:24.386Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:26:35
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-02T11:25:41.777Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:26:35
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-03T05:38:21.391Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:26:35
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-03T05:38:34.088Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:26:35
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-03T05:38:36.259Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\FunDoNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:26:35
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FunDoNotes\node_modules\express\lib\router\index.js:47:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-03T05:38:38.024Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T05:33:23.431Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T05:34:07.341Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T05:41:55.168Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T08:58:54.009Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:17:15
+    at Generator.next (<anonymous>)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FunDoNotes\src\middlewares\auth.middleware.ts:4:12)
+    at D:\FunDoNotes\src\middlewares\auth.middleware.ts:13:82
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FunDoNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FunDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FunDoNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FunDoNotes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FunDoNotes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FunDoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FunDoNotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/notes/dashbooard 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-06T05:25:30.089Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-06T10:11:17.640Z"}

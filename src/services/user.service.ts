@@ -7,19 +7,23 @@ import {connectRabbitMQ} from '../utils/rabbitMQ'
 class UserService {
 
   //create new user
-  public newUser = async (body: IUser): Promise<IUser> => {
-    const existingUser = await User.findOne({Email:body.Email}).exec();
-    if(existingUser){
-      throw new Error("Email Id is Already Exists")
-    }
-    const hashedPassword=await bcrypt.hash(body.Password,10);
-    body.Password=hashedPassword;
-    const data = await User.create(body);
-    const { sendToExchange } = await connectRabbitMQ();
-    await sendToExchange('userExchange', 'userRoutingKey',data);
+  public  newUser = async (body: IUser): Promise<IUser> => {
     
-    return   data;
-  };
+     
+      const existingUser = await User.findOne({ Email: body.Email }).exec();
+      if (existingUser) {
+        throw new Error('Email ID already exists');
+      }
+      const hashedPassword = await bcrypt.hash(body.Password, 10);
+      body.Password = hashedPassword;
+      const data = await User.create(body);
+      const { sendToExchange } = await connectRabbitMQ();
+      await sendToExchange('userExchange', 'userRoutingKey', data);
+      console.log(data);
+      return data;
+
+  
+    };
   
   public loginUser= async (body): Promise<any> => {
     const data = await User.find({ Email: body.Email });

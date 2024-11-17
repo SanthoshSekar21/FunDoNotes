@@ -1,0 +1,19 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T17:35:27.641Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T17:35:27.713Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-28T17:45:24.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T17:59:18.736Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T17:59:18.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T18:00:04.001Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T18:00:04.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T18:11:23.798Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T18:11:23.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T18:12:24.070Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T18:12:24.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T18:14:01.947Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T18:14:01.977Z"}
