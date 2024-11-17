@@ -2454,3 +2454,56 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-11-08T11:47:49.880Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-17T07:36:55.827Z"}
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as delete] (D:\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (D:\FunDoNotes\src\routes\note.route.ts:42:23)
+    at new NoteRoutes (D:\FunDoNotes\src\routes\note.route.ts:14:10)
+    at routes (D:\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (D:\FunDoNotes\src\index.ts:53:52)
+    at new App (D:\FunDoNotes\src\index.ts:34:10)
+    at Object.<anonymous> (D:\FunDoNotes\src\index.ts:76:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (D:\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:114:20)
+    at require.extensions.<computed> (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Sun Nov 17 2024 08:09:21 GMT+0000 (Greenwich Mean Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":241711.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518223,"external":20715510,"heapTotal":77586432,"heapUsed":38077152,"rss":112177152},"pid":8856,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as delete] (D:\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (D:\\FunDoNotes\\src\\routes\\note.route.ts:42:23)\n    at new NoteRoutes (D:\\FunDoNotes\\src\\routes\\note.route.ts:14:10)\n    at routes (D:\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (D:\\FunDoNotes\\src\\index.ts:53:52)\n    at new App (D:\\FunDoNotes\\src\\index.ts:34:10)\n    at Object.<anonymous> (D:\\FunDoNotes\\src\\index.ts:76:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (D:\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-11-17T08:09:21.272Z","trace":[{"column":15,"file":"D:\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":216,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":521,"method":"<computed> [as delete]","native":false},{"column":23,"file":"D:\\FunDoNotes\\src\\routes\\note.route.ts","function":"NoteRoutes.routes","line":42,"method":"routes","native":false},{"column":10,"file":"D:\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":14,"method":null,"native":false},{"column":23,"file":"D:\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"D:\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":53,"method":"initializeRoutes","native":false},{"column":10,"file":"D:\\FunDoNotes\\src\\index.ts","function":"new App","line":34,"method":null,"native":false},{"column":13,"file":"D:\\FunDoNotes\\src\\index.ts","function":null,"line":76,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"D:\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T09:15:16.938Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:10:15.951Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:10:24.677Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:11:39.311Z"}

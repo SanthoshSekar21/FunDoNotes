@@ -16,10 +16,8 @@ class UserController {
   public newUser = async (
     req: Request,
     res: Response,
-    next: NextFunction
   ): Promise<any> => {
     try {
-      // const existingUser = await this.UserService.findByEmail(req.body.Email);
       const data = await this.UserService.newUser(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,

@@ -3505,3 +3505,216 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T0
 info: Connected to the database. {"timestamp":"2024-11-09T04:14:05.632Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T04:14:17.637Z"}
 info: Connected to the database. {"timestamp":"2024-11-09T04:14:17.847Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T07:30:44.757Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T07:30:44.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T07:31:16.739Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T07:31:16.769Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-17T07:36:55.827Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T07:43:55.753Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T07:43:55.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T07:47:16.978Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T07:47:17.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T07:48:08.174Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T07:48:08.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T07:56:51.978Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T07:56:52.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T07:59:11.027Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T07:59:11.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:00:53.779Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:00:53.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:02:17.042Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:02:17.077Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:03:20.333Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:03:20.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:08:15.170Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:08:15.217Z"}
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\FunDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as delete] (D:\FunDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (D:\FunDoNotes\src\routes\note.route.ts:42:23)
+    at new NoteRoutes (D:\FunDoNotes\src\routes\note.route.ts:14:10)
+    at routes (D:\FunDoNotes\src\routes\index.ts:15:23)
+    at App.initializeRoutes (D:\FunDoNotes\src\index.ts:53:52)
+    at new App (D:\FunDoNotes\src\index.ts:34:10)
+    at Object.<anonymous> (D:\FunDoNotes\src\index.ts:76:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (D:\FunDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:114:20)
+    at require.extensions.<computed> (C:\Users\Dell\AppData\Local\Temp\ts-node-dev-hook-6529713872036207.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\FunDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Sun Nov 17 2024 08:09:21 GMT+0000 (Greenwich Mean Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":241711.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\FunDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518223,"external":20715510,"heapTotal":77586432,"heapUsed":38077152,"rss":112177152},"pid":8856,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as delete] (D:\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (D:\\FunDoNotes\\src\\routes\\note.route.ts:42:23)\n    at new NoteRoutes (D:\\FunDoNotes\\src\\routes\\note.route.ts:14:10)\n    at routes (D:\\FunDoNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (D:\\FunDoNotes\\src\\index.ts:53:52)\n    at new App (D:\\FunDoNotes\\src\\index.ts:34:10)\n    at Object.<anonymous> (D:\\FunDoNotes\\src\\index.ts:76:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (D:\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-11-17T08:09:21.272Z","trace":[{"column":15,"file":"D:\\FunDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":216,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\FunDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":521,"method":"<computed> [as delete]","native":false},{"column":23,"file":"D:\\FunDoNotes\\src\\routes\\note.route.ts","function":"NoteRoutes.routes","line":42,"method":"routes","native":false},{"column":10,"file":"D:\\FunDoNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":14,"method":null,"native":false},{"column":23,"file":"D:\\FunDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"D:\\FunDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":53,"method":"initializeRoutes","native":false},{"column":10,"file":"D:\\FunDoNotes\\src\\index.ts","function":"new App","line":34,"method":null,"native":false},{"column":13,"file":"D:\\FunDoNotes\\src\\index.ts","function":null,"line":76,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"D:\\FunDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Dell\\AppData\\Local\\Temp\\ts-node-dev-hook-6529713872036207.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\FunDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:09:38.174Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:09:38.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:12:38.567Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:12:38.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:13:10.462Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:13:10.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:15:33.627Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:15:33.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:20:28.016Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:20:28.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:21:51.104Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:21:51.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:24:09.198Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:24:09.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:25:08.646Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:25:08.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:26:18.189Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:26:18.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:28:17.842Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:28:17.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:29:04.911Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:29:04.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:30:28.693Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:30:28.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:31:15.516Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:31:15.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:32:17.694Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:32:17.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:33:35.969Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:33:36.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:34:15.161Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:34:15.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:37:15.263Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:37:15.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:49:30.882Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:49:30.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:51:12.386Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:51:12.454Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:54:35.392Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:54:35.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:56:40.163Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:56:40.200Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T08:57:54.150Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T08:57:54.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:00:21.311Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:00:21.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:02:12.545Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:02:12.576Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:03:10.600Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:03:10.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:08:28.842Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:08:28.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:10:11.569Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:10:11.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:14:25.743Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:14:25.788Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T09:15:16.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:19:46.517Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:19:46.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:20:14.857Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:20:14.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:23:23.869Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:23:23.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:25:27.636Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:25:27.665Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:26:37.473Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:26:37.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:27:10.853Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:27:10.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:29:17.137Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:29:17.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:34:00.668Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:34:00.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:34:19.704Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:34:19.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:34:41.749Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:34:41.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:36:31.189Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:36:31.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:38:14.836Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:38:14.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:39:21.665Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:39:21.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:41:56.297Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:41:56.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:42:36.310Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:42:36.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:43:53.392Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:43:53.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:46:27.968Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:46:28.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:48:04.245Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:48:04.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:48:45.352Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:48:45.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:49:52.473Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:49:52.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:50:37.454Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:50:37.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:51:00.729Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:51:00.762Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:54:36.831Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:54:36.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:55:00.769Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:55:00.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T09:57:28.716Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T09:57:28.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:01:41.048Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:01:41.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:02:27.491Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:02:27.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:07:13.456Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:07:13.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:07:48.639Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:07:48.665Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:08:18.778Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:08:18.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:09:04.869Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:09:04.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:09:36.730Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:09:36.775Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:10:15.951Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:10:24.677Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-17T10:11:39.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:19:43.336Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:19:43.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:21:26.738Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:21:26.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:23:39.362Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:23:39.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:23:57.275Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:23:57.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:25:00.638Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:25:00.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:25:16.409Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:25:16.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:26:05.566Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:26:05.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:26:12.225Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:26:12.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-17T10:28:25.367Z"}
+info: Connected to the database. {"timestamp":"2024-11-17T10:28:25.394Z"}
