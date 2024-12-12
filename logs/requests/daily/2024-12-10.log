@@ -1,0 +1,16 @@
+info: ::1 - - [10/Dec/2024:05:21:15 +0000] "PUT /api/v1/notes/675157b38233fd1408a85e90/trash HTTP/1.1" 200 61 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:05:22:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 12203 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:05:28:58 +0000] "GET /api/v1/notes HTTP/1.1" 200 12231 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:05:32:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 12231 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:05:33:01 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:05:33:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:05:48:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 12231 "http://localhost:4200/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:05:48:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+

@@ -448,3 +448,10 @@ info: ::ffff:127.0.0.1 - - [17/Nov/2024:10:28:25 +0000] "PUT /api/v1/notes/6739c
 
 info: ::ffff:127.0.0.1 - - [17/Nov/2024:10:28:25 +0000] "DELETE /api/v1/notes/6739c549ce262132883474d9/delete HTTP/1.1" 200 45 "-" "node-superagent/3.8.3"
 
+<<<<<<< HEAD
+=======
+info: ::1 - - [17/Nov/2024:13:53:49 +0000] "POST /api/v1/users HTTP/1.1" 200 269 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/Nov/2024:13:53:56 +0000] "POST /api/v1/users HTTP/1.1" 200 269 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+>>>>>>> Notes

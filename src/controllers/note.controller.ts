@@ -99,8 +99,7 @@ class NoteController {
   
   public archive= async (req: Request, res: Response): Promise<any> => {
     try {
-      const noteId = req.params.noteId;
-      const archive = await this.NoteService.archive(noteId);
+      const archive = await this.NoteService.archive(req.params.noteId);
       const message = archive.isArchive 
       ? 'Note moved to the Archive successfully'
       : 'Note  UnArchive successfully';
@@ -118,8 +117,12 @@ class NoteController {
   };
   public PermanentlyDelete = async (req: Request, res: Response): Promise<any> => {
     try {
+<<<<<<< HEAD
       const noteId = req.params.noteId;
       const deletedNote = await this.NoteService.permanentlyDelete(noteId);
+=======
+      await this.NoteService.permanentlyDelete(req.params.noteId,req.body.createdBy);
+>>>>>>> Notes
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         message:'deleted successfully',

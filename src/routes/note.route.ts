@@ -15,9 +15,6 @@ class NoteRoutes {
   }
 
   private routes = () => {
-    // //route to get all users
-    // this.router.get('', this.UserController.getAllUsers);
-    
    
     this.router.post('', 
       this.NoteValidator.newNote,

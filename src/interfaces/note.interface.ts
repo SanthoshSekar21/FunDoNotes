@@ -6,7 +6,7 @@ _id: string |number|Types.ObjectId;
 title : string;
 description : string;
 noteId:number|Types.ObjectId|string;
-color : string;
+color: string;
 isArchive :boolean;
 isTrash :boolean;
 createdBy :string| Types.ObjectId;

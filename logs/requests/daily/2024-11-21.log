@@ -1,0 +1,188 @@
+info: ::1 - - [21/Nov/2024:03:56:40 +0000] "POST /api/v1/users HTTP/1.1" 400 48 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:03:57:23 +0000] "POST /api/v1/users HTTP/1.1" 200 269 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:03:57:23 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:03:58:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:03:58:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:03:58:14 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:03:58:43 +0000] "POST /api/v1/users/register HTTP/1.1" 201 61 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:03:59:20 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3743 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:06:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:07:10 +0000] "POST /api/v1/users/register HTTP/1.1" 201 67 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:07:54 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:07:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:07:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:07:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:07:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:07:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:13:58 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:18:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:04:18:19 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:18:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3715 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:18:35 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3743 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:27:00 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:35:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:35:45 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:35:50 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:39:33 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:39:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:41:35 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:51:40 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:52:28 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:05:52:29 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:03:53 +0000] "GET /api-doc HTTP/1.1" 301 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:03:53 +0000] "GET /api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:03:53 +0000] "GET /api-doc/swagger-ui.css HTTP/1.1" 200 152073 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:03:53 +0000] "GET /api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:03:53 +0000] "GET /api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 200 230294 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:03:53 +0000] "GET /api-doc/swagger-ui-bundle.js HTTP/1.1" 200 1452754 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:05:00 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:06:00 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:06:42 +0000] "POST /api/v1/users HTTP/1.1" 400 46 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:06:51 +0000] "POST /api/v1/users HTTP/1.1" 400 46 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:06:58 +0000] "POST /api/v1/users HTTP/1.1" 200 265 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:08:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:09:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 307 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:09:14 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 50 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:15:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:18:26 +0000] "GET /api/v1/notes/673ece8675b22b2b0cbc6276 HTTP/1.1" 200 269 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:19:10 +0000] "PUT /api/v1/notes/673ece8675b22b2b0cbc6276 HTTP/1.1" 200 291 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:19:18 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:19:37 +0000] "PUT /api/v1/notes/673ece8675b22b2b0cbc6276/archive HTTP/1.1" 200 303 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:19:44 +0000] "PUT /api/v1/notes/673ece8675b22b2b0cbc6276/archive HTTP/1.1" 200 294 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:19:52 +0000] "PUT /api/v1/notes/673ece8675b22b2b0cbc6276/trash HTTP/1.1" 200 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:20:02 +0000] "DELETE /api/v1/notes/673ece8675b22b2b0cbc6276/delete HTTP/1.1" 200 45 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:26:14 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:26:51 +0000] "GET /api-doc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:26:51 +0000] "GET /api-doc/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:26:51 +0000] "GET /api-doc/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:26:51 +0000] "GET /api-doc/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:26:51 +0000] "GET /api-doc/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:26:51 +0000] "GET /api-doc/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:27:21 +0000] "POST /api/v1/notes HTTP/1.1" 201 291 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:27:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 255 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:28:15 +0000] "PUT /api/v1/notes/673ed2c9014a6f2c58124503 HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:06:28:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:07:03:08 +0000] "POST /api/v1/notes HTTP/1.1" 201 295 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:07:03:55 +0000] "POST /api/v1/users/register HTTP/1.1" 201 64 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "POST /api/v1/users/register HTTP/1.1" 201 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "POST /api/v1/users HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "POST /api/v1/users HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "POST /api/v1/users HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "POST /api/v1/notes HTTP/1.1" 201 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "GET /api/v1/notes/673efbfccb1cd4104c3e626f HTTP/1.1" 200 274 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "PUT /api/v1/notes/673efbfccb1cd4104c3e626f HTTP/1.1" 200 322 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "PUT /api/v1/notes/673efbfccb1cd4104c3e626f/archive HTTP/1.1" 200 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "PUT /api/v1/notes/673efbfccb1cd4104c3e626f/trash HTTP/1.1" 200 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:23:08 +0000] "DELETE /api/v1/notes/673efbfccb1cd4104c3e626f/delete HTTP/1.1" 400 81 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [21/Nov/2024:09:23:54 +0000] "POST /api/v1/notes HTTP/1.1" 201 291 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:09:24:18 +0000] "PUT /api/v1/notes/673efc2a175297110859fddf/trash HTTP/1.1" 200 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:09:24:26 +0000] "DELETE /api/v1/notes/673efc2a175297110859fddf/delete HTTP/1.1" 400 81 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Nov/2024:09:25:07 +0000] "DELETE /api/v1/notes/673efc2a175297110859fddf/delete HTTP/1.1" 200 45 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "POST /api/v1/users/register HTTP/1.1" 201 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "POST /api/v1/users/register HTTP/1.1" 400 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "POST /api/v1/users HTTP/1.1" 200 251 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "POST /api/v1/users HTTP/1.1" 400 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "POST /api/v1/users HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "POST /api/v1/notes HTTP/1.1" 201 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 276 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "GET /api/v1/notes/673efcb7f2b2fc16fc663304 HTTP/1.1" 200 274 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "PUT /api/v1/notes/673efcb7f2b2fc16fc663304 HTTP/1.1" 200 322 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "PUT /api/v1/notes/673efcb7f2b2fc16fc663304/archive HTTP/1.1" 200 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "PUT /api/v1/notes/673efcb7f2b2fc16fc663304/trash HTTP/1.1" 200 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Nov/2024:09:26:15 +0000] "DELETE /api/v1/notes/673efcb7f2b2fc16fc663304/delete HTTP/1.1" 200 45 "-" "node-superagent/3.8.3"
+

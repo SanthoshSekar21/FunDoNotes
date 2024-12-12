@@ -1,0 +1,32 @@
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T05:33:23.431Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T05:34:07.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-05T05:41:27.929Z"}
+info: Connected to the database. {"timestamp":"2024-12-05T05:41:28.057Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T05:41:55.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-05T05:42:50.967Z"}
+info: Connected to the database. {"timestamp":"2024-12-05T05:42:51.007Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is not allowed to be empty 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-05T08:58:54.009Z"}
